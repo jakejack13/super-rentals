@@ -7,6 +7,7 @@ module.exports = function (environment) {
     rootURL: '/',
     locationType: 'history',
     EmberENV: {
+      RAISE_ON_DEPRECATION: true,
       EXTEND_PROTOTYPES: false,
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -44,8 +45,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
-  ENV.MAPBOX_ACCESS_TOKEN =
-    'pk.eyJ1IjoiamFrZWphY2siLCJhIjoiY2x4MGt2dXYwMDFrazJxb3A5Z2d5b2UweCJ9.nW4efgwSNiPpWIwRTuf22A';
+  ENV.MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
 
   return ENV;
 };

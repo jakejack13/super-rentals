@@ -7,12 +7,11 @@ module('Integration | Component | rental/image', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders the given image', async function (assert) {
-    // Template block usage:
     await render(hbs`
-    <Rental::Image
-    src="/assets/images/teaching-tomster.png"
-    alt="Teaching Tomster"
-  />
+      <Rental::Image
+        src="/assets/images/teaching-tomster.png"
+        alt="Teaching Tomster"
+      />
     `);
 
     assert
@@ -31,6 +30,7 @@ module('Integration | Component | rental/image', function (hooks) {
     `);
 
     assert.dom('button.image').exists();
+
     assert.dom('.image').doesNotHaveClass('large');
     assert.dom('.image small').hasText('View Larger');
 
