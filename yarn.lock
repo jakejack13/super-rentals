@@ -1313,7 +1313,7 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@2.8.1":
+"@embroider/shared-internals@2.8.1", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.6.0":
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.8.1.tgz#2aecff7324299f1e5fe563be7ee9882ee5566bcc"
   integrity sha512-zi0CENFD1e0DH7c9M/rNKJnFnt2c3+736J3lguBddZdmaIV6Cb8l3HQSkskSW5O4ady+SavemLKO3hCjQQJBIw==
@@ -1327,22 +1327,6 @@
     lodash "^4.17.21"
     minimatch "^3.0.4"
     pkg-entry-points "^1.1.0"
-    resolve-package-path "^4.0.1"
-    semver "^7.3.5"
-    typescript-memoize "^1.0.1"
-
-"@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.6.0":
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.6.2.tgz#66297a8606587108f9dbcbaa1a9dcc6b4a4ca605"
-  integrity sha512-jL3Bjn8C73AUBlTex+VixP7YmqvPNN/BZFB85odTstzLFOuR8y2mmGiuWbq17qNuFyoxc6xtndMnAeqwCXBNkA==
-  dependencies:
-    babel-import-util "^2.0.0"
-    debug "^4.3.2"
-    ember-rfc176-data "^0.3.17"
-    fs-extra "^9.1.0"
-    js-string-escape "^1.0.1"
-    lodash "^4.17.21"
-    minimatch "^3.0.4"
     resolve-package-path "^4.0.1"
     semver "^7.3.5"
     typescript-memoize "^1.0.1"
@@ -4179,10 +4163,10 @@ electron-to-chromium@^1.5.28:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.31.tgz#b1478418769dec72ea70d9fdf147a81491857f10"
   integrity sha512-QcDoBbQeYt0+3CWcK/rEbuHvwpbT/8SV9T3OSgs6cX1FlcUAkgrkqbg9zLnDrMM/rLamzQwal4LYFCiWk861Tg==
 
-ember-auto-import@^2.6.3, ember-auto-import@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.8.1.tgz#03977e87ce178e6f9e4f89809185ff8f0fee9fcb"
-  integrity sha512-R5RpJmhycU6YKryzsIL/wP42r0e2PPfLRsFECoGvb1st2eEnU1Q7XyLVC1txd/XvURfu7x3Z7hKtZtYUxy61oQ==
+ember-auto-import@^2.6.3, ember-auto-import@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.9.0.tgz#ce03790ace1441e5474d5efcc10f112b6d1fb887"
+  integrity sha512-iXPq2rJcJaqD+m5Lk1rYAVl7Db2MvT1MMjKJfJbNT3ps4xI2H+3njwwfT6pOKZIUVB/rfeyNPANqbnw3F68Qxg==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
