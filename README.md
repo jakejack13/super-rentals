@@ -1,29 +1,34 @@
-# super-rentals
+[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/super-rentals/workflows/CI/badge.svg)](https://github.com/ember-learn/super-rentals/actions?query=workflow%3ACI)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Super Rentals
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+This is a working repository for the Super Rentals tutorial,
+which you can check out at https://guides.emberjs.com/release/tutorial/.
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/)
-- [Ember CLI](https://cli.emberjs.com/release/)
-- [Google Chrome](https://google.com/chrome/)
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/)
+* [Ember CLI](https://ember-cli.com/)
+* [Google Chrome](https://google.com/chrome/)
+* A [Mapbox API token](https://account.mapbox.com/access-tokens/) (with the "styles:tiles" scope)
 
 ## Installation
 
-- `git clone <repository-url>` this repository
-- `cd super-rentals`
-- `yarn install`
+* `git clone <repository-url>` this repository
+* `cd super-rentals`
+* `yarn install`
 
 ## Running / Development
 
-- `yarn start`
-- Visit your app at [http://localhost:4200](http://localhost:4200).
-- Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ### Code Generators
 
@@ -31,18 +36,19 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-- `yarn test`
-- `yarn test:ember --server`
+* `ember test`
+* `ember test --server`
 
 ### Linting
 
-- `yarn lint`
-- `yarn lint:fix`
+* `yarn lint:hbs`
+* `yarn lint:js`
+* `yarn lint:js --fix`
 
 ### Building
 
-- `yarn ember build` (development)
-- `yarn build` (production)
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build` (development)
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build --environment production` (production)
 
 ### Deploying
 
@@ -50,8 +56,8 @@ Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
-- [ember.js](https://emberjs.com/)
-- [ember-cli](https://cli.emberjs.com/release/)
-- Development Browser Extensions
-  - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [ember.js](https://emberjs.com/)
+* [ember-cli](https://ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
