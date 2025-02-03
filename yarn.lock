@@ -4508,10 +4508,10 @@ ember-template-imports@^3.4.2:
     string.prototype.matchall "^4.0.6"
     validate-peer-dependencies "^1.1.0"
 
-ember-template-imports@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-4.2.0.tgz#3c7bfa09b7683967c5dda6c0137f1530c573acb5"
-  integrity sha512-qwf/38E1ut8M2/1tsFJl6kL99799MvxQrx0lN3LAc0HJRQhM/lYHqnHhzS30rkH76g+76TfxcMB5JJZQabWk2A==
+ember-template-imports@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-4.3.0.tgz#ee5b01ad5b11cbd8dea93f9e9c06d71195b91acb"
+  integrity sha512-jZ5D6KLKU8up/AynZltmKh4lkXBPgTGSPgomprI/55XvIVqn42UNUpEz7ra/mO3QiGODDZOUesbggPe49i38sQ==
   dependencies:
     broccoli-stew "^3.0.0"
     content-tag "^3.0.0"
