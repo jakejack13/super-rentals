@@ -60,7 +60,7 @@
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-ember": "^12.5.0",
-    "eslint-plugin-n": "^17.15.1",
+    "eslint-plugin-n": "^17.16.1",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-qunit": "^8.1.2",
     "globals": "^16.0.0",
@@ -73,10 +73,11 @@
     "stylelint-config-standard": "^37.0.0",
     "stylelint-prettier": "^5.0.2",
     "tracked-built-ins": "^4.0.0",
+    "typescript": "^5.8.2",
     "webpack": "^5.98.0"
   },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 22"
   },
   "ember": {
     "edition": "octane"
