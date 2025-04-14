@@ -4476,10 +4476,10 @@ ember-template-imports@^4.3.0:
     content-tag "^3.0.0"
     ember-cli-version-checker "^5.1.2"
 
-ember-template-lint@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-7.0.4.tgz#e03a024b525f0b176689b769a9e0fb740fadfb54"
-  integrity sha512-60TAoopPzfSpfCEQawnOFUTxizFAZkar6f/0Nsa1FeAIxif6oBqY+tVVrqwcOSenVLjWZLMGxm4iARlQz2aagg==
+ember-template-lint@^7.0.7:
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-7.0.7.tgz#9fa7e4dd07714f36abcb5423e84326717fc8e572"
+  integrity sha512-CMdoLXMiAn5YsnE27EnrfkM5vd+L1hOl1eMY1QYBrMujQzN4PtErkOB3WIotAirBioD3mzSumKEKjdqPvCjnxQ==
   dependencies:
     "@babel/generator" "^7.26.9"
     "@babel/parser" "^7.21.8"
