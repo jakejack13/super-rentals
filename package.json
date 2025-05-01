@@ -27,7 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.27.1",
     "@babel/eslint-parser": "^7.27.1",
-    "@babel/plugin-proposal-decorators": "^7.25.9",
+    "@babel/plugin-proposal-decorators": "^7.27.1",
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.1",
     "@ember/test-helpers": "^4.0.4",
