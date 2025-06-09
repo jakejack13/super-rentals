@@ -4555,10 +4555,10 @@ ember-template-imports@^4.3.0:
     content-tag "^3.0.0"
     ember-cli-version-checker "^5.1.2"
 
-ember-template-lint@^7.8.1:
-  version "7.8.1"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-7.8.1.tgz#ab8fd79d26a3e48ab4beec1adcfbe4a682f3b3bf"
-  integrity sha512-SFVTR6YdxvldbBL3ArphAbDhYOXyD8Tt9rTKEWKYpQTilq7Hl9mTrKP59q3GOcnDaR/rNk0cg4rJHYAg6/SCGw==
+ember-template-lint@^7.9.0:
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-7.9.0.tgz#9c6629d3e20b7229af9ccebce1ee589e85d6358f"
+  integrity sha512-J2/d9S5mnNVoE2ZjWmbeCd3Dk6y0e5DyK4/z4BoY8XlyBkkA1Jg4wttlN15Jd2dQhPQZK7KMMLj9ZxLY4U7jZQ==
   dependencies:
     "@lint-todo/utils" "^13.1.1"
     content-tag "^3.1.1"
