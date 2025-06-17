@@ -1110,12 +1110,12 @@
   resolved "https://registry.yarnpkg.com/@ember/string/-/string-4.0.1.tgz#2c9d3f749bad92567e99ab5b8d4fdb5ed7f0ff0c"
   integrity sha512-VWeng8BSWrIsdPfffOQt/bKwNKJL7+37gPFh/6iZZ9bke+S83kKqkS30poo4bTGfRcMnvAE0ie7txom+iDu81Q==
 
-"@ember/test-helpers@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-4.0.4.tgz#2ffb55c8438b8ba54ecd4f546059ba0166bc00f2"
-  integrity sha512-1mbOVyVEcLxYOGzBaeeaQkCrL1o9Av86QaHk/1RvrVBW24I6YUj1ILLEi2qLZT5PzcCy0TdfadHT3hKJwJ0GcQ==
+"@ember/test-helpers@^5.0.0":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-5.2.2.tgz#275e47154b62915105da0681cc6e7ede80e4e1aa"
+  integrity sha512-Cclqeh0j6RnYvoaElAVC3Nd1fsSUkc3oUTwTsLlNiC3riyPq8lNYxh96VM59/yji2ntrd/cJQ7qhhSZWd6hsEw==
   dependencies:
-    "@ember/test-waiters" "^3.1.0"
+    "@ember/test-waiters" "^3.1.0 || ^4.0.0"
     "@embroider/addon-shim" "^1.8.7"
     "@embroider/macros" "^1.16.5"
     "@simple-dom/interface" "^1.4.0"
@@ -1132,6 +1132,14 @@
     ember-cli-version-checker "^5.1.2"
     semver "^7.3.5"
 
+"@ember/test-waiters@^3.1.0 || ^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-4.1.0.tgz#4e676db277b4bc4c52e5d1ed1c8c22b07c54ac57"
+  integrity sha512-qRFA0OumYv7/C3hmx4ETC2dlPzyD549D+naPhcrnV2xCnc3AZlKouWyoFnNF+Cje918kRp9aEefVgV3vmGL5Bg==
+  dependencies:
+    "@embroider/addon-shim" "^1.9.0"
+    "@embroider/macros" "^1.16.9"
+
 "@embroider/addon-shim@^1.8.5", "@embroider/addon-shim@^1.8.7", "@embroider/addon-shim@^1.8.9", "@embroider/addon-shim@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.9.0.tgz#f729cfaf0f2d5f3c178808a546251743335c62f4"
@@ -1142,10 +1150,24 @@
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.12", "@embroider/macros@^1.16.5", "@embroider/macros@^1.16.6":
+"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.5", "@embroider/macros@^1.16.6":
   version "1.17.3"
   resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.17.3.tgz#1af5fe61bfc99eb5f9060d4d374bfb94a1e29fb2"
   integrity sha512-ag0QUiawjSwEqOhNqscZN5O2Q0gjQ6TS5weepamn4MGGVwIC4/9MpLUAZKmbVh5dmPhCvRp9jTmYvCykx0vB2Q==
+  dependencies:
+    "@embroider/shared-internals" "3.0.0"
+    assert-never "^1.2.1"
+    babel-import-util "^3.0.1"
+    ember-cli-babel "^7.26.6"
+    find-up "^5.0.0"
+    lodash "^4.17.21"
+    resolve "^1.20.0"
+    semver "^7.3.2"
+
+"@embroider/macros@^1.16.12", "@embroider/macros@^1.16.9":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.18.0.tgz#d79c4474667559ac9baf903e8fb89f1b00a0c45a"
+  integrity sha512-KanP80XxNK4bmQ1HKTcUjy/cdCt9n7knPMLK1vzHdOFymACHo+GbhgUjXjYdOCuBTv+ZwcjL2P2XDmBcYS9r8g==
   dependencies:
     "@embroider/shared-internals" "3.0.0"
     assert-never "^1.2.1"
@@ -4470,7 +4492,7 @@ ember-page-title@^9.0.2:
     "@embroider/addon-shim" "^1.8.7"
     "@simple-dom/document" "^1.4.0"
 
-ember-qunit@^9.0.3:
+ember-qunit@^9.0.0:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.3.tgz#ce1d3bd03a4adb3ee4a460dfd238d64c5557bdf9"
   integrity sha512-t+FD5/EWAR3WvGVj1etblFJJ6CaJqddDxusNcYYFZmW7zrQpCnQ9ziwpXM5/sw1sWabkhJZgYPXCn8bDRRhOfg==
@@ -4500,10 +4522,10 @@ ember-router-generator@^2.0.0:
     "@babel/traverse" "^7.4.5"
     recast "^0.18.1"
 
-ember-source@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.4.0.tgz#45070d1e2f6beadc8cc8961b4f0761d14f0db5c6"
-  integrity sha512-lUzSbCsOQa3vRTv1HL7dj3gLApXXrq91QeAlnOLmwETQFoa6aX8+Z+78vNHIgg0jXCpzX1pWWL/NKpe4KDuCuw==
+ember-source@~6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.5.0.tgz#d429794918f12a975eb4eed1e675a1285f6492fa"
+  integrity sha512-se8UFNu9n017VmKry124jc+Mh1ybZ8sAf9IthYYGpdPYH4PRLxBbxa+YEUdtu1vWoKZG2lVthtOUbCmIAjNrpQ==
   dependencies:
     "@babel/core" "^7.24.4"
     "@ember/edition-utils" "^1.2.0"
