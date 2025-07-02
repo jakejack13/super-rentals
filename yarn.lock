@@ -1948,6 +1948,16 @@
     babel-import-util "^2.1.1"
     semver "^7.7.1"
 
+"@warp-drive/build-config@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.6.0.tgz#1fbea70f64264b02d604ebb534e0ac54f6d9aa56"
+  integrity sha512-7qdE7x1U0yRhbGy1wO47lirgKO6cjMqmKJUdLhpIhX31fIo0MM2/6n8p/+2rNTlZiCMhLNeV7RelA8LoIkxW3Q==
+  dependencies:
+    "@embroider/addon-shim" "^1.9.0"
+    "@embroider/macros" "^1.16.12"
+    babel-import-util "^2.1.1"
+    semver "^7.7.1"
+
 "@warp-drive/core-types@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.5.0.tgz#ece204df217a362ee7b113270aef43e1f89c5c33"
@@ -1956,13 +1966,29 @@
     "@embroider/macros" "^1.16.12"
     "@warp-drive/build-config" "5.5.0"
 
-"@warp-drive/ember@5.5.0", "@warp-drive/ember@^5.5.0":
+"@warp-drive/core@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.6.0.tgz#0f7a2355e54a86a35fd9849d4b8627fce8be22d0"
+  integrity sha512-pUt2QEWzhMkBD3tzjpDmycNsVQsvUBXfQpIrIQ8K55BS1b5fXNKXc/srOi6XoSy+elh7V7sgjdEZLOWP3ttcRw==
+  dependencies:
+    "@embroider/macros" "^1.16.12"
+    "@warp-drive/build-config" "5.6.0"
+
+"@warp-drive/ember@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.5.0.tgz#8d3699a813059fad872451b1e3b8115e4ba7301d"
   integrity sha512-GgsAgotKiwVyO1HSss5obj5GTzn6yNagSvHFFcslR8gWPeL5ZtWtWNmx0CvAoeqragIWQvhu4pg76I0F/Ob0BQ==
   dependencies:
     "@embroider/macros" "^1.16.12"
     "@warp-drive/build-config" "5.5.0"
+
+"@warp-drive/ember@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.6.0.tgz#ef8493824bbeecc546ccc7f5341b4a0bce0f22dd"
+  integrity sha512-vdDudXsF1SGmzSW1waYDtsqe9LA3FnzYHP+Biiq48aMWncHgEfkOupg8BG4Kyi+FnW7HxD86O6roiSuC93+f3Q==
+  dependencies:
+    "@embroider/macros" "^1.16.12"
+    "@warp-drive/core" "5.6.0"
 
 "@webassemblyjs/ast@1.14.1", "@webassemblyjs/ast@^1.14.1":
   version "1.14.1"
