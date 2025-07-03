@@ -1103,14 +1103,6 @@
     ember-cli-string-utils "^1.1.0"
     ember-cli-test-info "^1.0.0"
 
-"@ember-data/store@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-5.5.0.tgz#6c456c98e504f9e32d307f1f5ed9df168077245a"
-  integrity sha512-4Oa3ObaqkSZ0ESRuLcITn1fmXdhkbcsvfFskH3sh4VmQW1kylTgS7qlU5n2nJE7GqMw43IM2ta/s1F0DFKC9Vw==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
-    "@warp-drive/build-config" "5.5.0"
-
 "@ember-data/store@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-5.6.0.tgz#0de33e10a6cf6be8ce393c77505707a0100faf48"
