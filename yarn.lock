@@ -1137,10 +1137,10 @@
     decorator-transforms "^2.0.0"
     dom-element-descriptors "^0.5.0"
 
-"@ember/test-waiters@^3.1.0 || ^4.0.0", "@ember/test-waiters@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-4.1.0.tgz#4e676db277b4bc4c52e5d1ed1c8c22b07c54ac57"
-  integrity sha512-qRFA0OumYv7/C3hmx4ETC2dlPzyD549D+naPhcrnV2xCnc3AZlKouWyoFnNF+Cje918kRp9aEefVgV3vmGL5Bg==
+"@ember/test-waiters@^3.1.0 || ^4.0.0", "@ember/test-waiters@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-4.1.1.tgz#f92747479845c52e3ec00fe0138c0ed19b0bbb2f"
+  integrity sha512-HbK70JYCDJcGI0CrwcbjeL2QHAn0HLwa3oGep7mr6l/yO95U7JYA8VN+/9VTsWJTmKueLtWayUqEmGS3a3mVOg==
   dependencies:
     "@embroider/addon-shim" "^1.9.0"
     "@embroider/macros" "^1.16.9"
