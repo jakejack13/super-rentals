@@ -1060,14 +1060,6 @@
     "@warp-drive/core" "5.6.0"
     "@warp-drive/utilities" "5.6.0"
 
-"@ember-data/request@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.5.0.tgz#95bc27185137fda41a37334d789a6523e1cf04cd"
-  integrity sha512-Omu39FbKiDylq8PVnKnXsjljWa6qIyQx65O0hNAasNi2rV1Uhv04g0UBZ3L0L+7R6Od8n1/9aqbrcfK/oNEhHA==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
-    "@warp-drive/build-config" "5.5.0"
-
 "@ember-data/request@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.6.0.tgz#9b0a53a12412abdec61655e6c6868c41deb09540"
