@@ -82,7 +82,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@ember-data/request": "5.5.0",
+    "@ember-data/request": "5.6.0",
     "@ember-data/request-utils": "5.6.0",
     "@ember-data/store": "5.6.0",
     "@ember/test-waiters": "^4.1.0",
