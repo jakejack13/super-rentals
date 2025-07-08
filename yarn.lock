@@ -1912,16 +1912,6 @@
   resolved "https://registry.yarnpkg.com/@types/symlink-or-copy/-/symlink-or-copy-1.2.2.tgz#51b1c00b516a5774ada5d611e65eb123f988ef8d"
   integrity sha512-MQ1AnmTLOncwEf9IVU+B2e4Hchrku5N67NkgcAHW0p3sdzPe0FNMANxEm6OJUzPniEQGkeT3OROLlCwZJLWFZA==
 
-"@warp-drive/build-config@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.5.0.tgz#720a65b85002b215d496c319fcd9d87082b04bcf"
-  integrity sha512-l0ZyDsalwcgb9nw02GC8H62fo9E9US42p+5fVQsNOj2oleCb9f3DmLNqcbJG0w22kxJol+GU0YppO8hSqNHL2w==
-  dependencies:
-    "@embroider/addon-shim" "^1.9.0"
-    "@embroider/macros" "^1.16.12"
-    babel-import-util "^2.1.1"
-    semver "^7.7.1"
-
 "@warp-drive/build-config@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.6.0.tgz#1fbea70f64264b02d604ebb534e0ac54f6d9aa56"
@@ -1931,14 +1921,6 @@
     "@embroider/macros" "^1.16.12"
     babel-import-util "^2.1.1"
     semver "^7.7.1"
-
-"@warp-drive/core-types@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.5.0.tgz#ece204df217a362ee7b113270aef43e1f89c5c33"
-  integrity sha512-PWc3QI9Ykc6zqGH0UUEuSthIaPN60WjKBUsievhD4YB5sjMVqRFIawrrD1Z9SOd2cgmidAJWDNT/zWsi7OI2OQ==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
-    "@warp-drive/build-config" "5.5.0"
 
 "@warp-drive/core-types@5.6.0":
   version "5.6.0"

@@ -86,7 +86,7 @@
     "@ember-data/request-utils": "5.6.0",
     "@ember-data/store": "5.6.0",
     "@ember/test-waiters": "^4.1.1",
-    "@warp-drive/core-types": "5.5.0",
+    "@warp-drive/core-types": "5.6.0",
     "@warp-drive/ember": "^5.5.0",
     "ember-qunit": "^9.0.0",
     "rsvp": "^4.8.5"
