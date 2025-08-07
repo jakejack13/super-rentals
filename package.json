@@ -54,7 +54,7 @@
     "ember-resolver": "^13.1.1",
     "ember-source": "~6.6.0",
     "ember-template-imports": "^4.3.0",
-    "ember-template-lint": "^7.9.1",
+    "ember-template-lint": "^7.9.2",
     "ember-welcome-page": "^7.0.2",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^10.1.8",
