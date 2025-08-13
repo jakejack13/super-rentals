@@ -73,7 +73,7 @@
     "stylelint-prettier": "^5.0.2",
     "tracked-built-ins": "^4.0.0",
     "typescript": "^5.9.2",
-    "webpack": "^5.101.0"
+    "webpack": "^5.101.1"
   },
   "engines": {
     "node": ">= 22"
