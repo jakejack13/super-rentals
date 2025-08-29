@@ -1060,6 +1060,15 @@
     "@warp-drive/core" "5.6.0"
     "@warp-drive/utilities" "5.6.0"
 
+"@ember-data/request-utils@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/request-utils/-/request-utils-5.7.0.tgz#30a80270af53d7cf32bc0e07da2a20f7cfb1b6d9"
+  integrity sha512-P6Gh4cYhezcz8XkPC8hWAlu5+yDq0ysTwoBPgLWv5XqQpGBfgj5FRxD1L8LW2JcM44syHJWPYK+hTzRcnRQAUQ==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.7.0"
+    "@warp-drive/utilities" "5.7.0"
+
 "@ember-data/request@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.6.0.tgz#9b0a53a12412abdec61655e6c6868c41deb09540"
@@ -2018,6 +2027,13 @@
   integrity sha512-97hUDe2tYU+eOcLlrdCs4Q0z8AjvFvkAWDhJo+5FAgQFNSlbHJzCYuv3jtAcvQUBoYqxTng+P8nFv4L0DiaPAw==
   dependencies:
     "@embroider/macros" "^1.16.12"
+
+"@warp-drive/utilities@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/utilities/-/utilities-5.7.0.tgz#1e25bbf43b8680fac02776226b9ebb7d3bc55ea8"
+  integrity sha512-3IlqmZ3eAFxz+iUNflipJ6/8fsv7oro7Cn4xN3o0l7TbiUTm2otgikHMjR45kAwuFZ/jNxvOMWR5yIb3OW+NeQ==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
 
 "@webassemblyjs/ast@1.14.1", "@webassemblyjs/ast@^1.14.1":
   version "1.14.1"
