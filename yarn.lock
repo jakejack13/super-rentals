@@ -1988,13 +1988,21 @@
     "@embroider/macros" "^1.18.1"
     "@warp-drive/build-config" "5.7.0"
 
-"@warp-drive/ember@5.6.0", "@warp-drive/ember@^5.5.0":
+"@warp-drive/ember@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.6.0.tgz#ef8493824bbeecc546ccc7f5341b4a0bce0f22dd"
   integrity sha512-vdDudXsF1SGmzSW1waYDtsqe9LA3FnzYHP+Biiq48aMWncHgEfkOupg8BG4Kyi+FnW7HxD86O6roiSuC93+f3Q==
   dependencies:
     "@embroider/macros" "^1.16.12"
     "@warp-drive/core" "5.6.0"
+
+"@warp-drive/ember@^5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.7.0.tgz#a2b61830414e82bf026ac22b8dfb7994111f0591"
+  integrity sha512-oCnEsphvDMEd9JfJzVTijg+qWQrQl5qNKEEzt5Mencp62pj3DSKFphsWsMRfSk7CedIN792NZDxxJHXqhwtBvA==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.7.0"
 
 "@warp-drive/json-api@5.6.0":
   version "5.6.0"
