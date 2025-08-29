@@ -1145,6 +1145,16 @@
     "@embroider/addon-shim" "^1.9.0"
     "@embroider/macros" "^1.16.9"
 
+"@embroider/addon-shim@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.0.tgz#7c3325e0939674290a9ca4ad7d744ee69313c0a0"
+  integrity sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==
+  dependencies:
+    "@embroider/shared-internals" "^3.0.0"
+    broccoli-funnel "^3.0.8"
+    common-ancestor-path "^1.0.1"
+    semver "^7.3.8"
+
 "@embroider/addon-shim@^1.8.5", "@embroider/addon-shim@^1.8.7", "@embroider/addon-shim@^1.8.9", "@embroider/addon-shim@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.9.0.tgz#f729cfaf0f2d5f3c178808a546251743335c62f4"
@@ -1155,10 +1165,10 @@
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.12", "@embroider/macros@^1.16.5", "@embroider/macros@^1.16.9":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.18.0.tgz#d79c4474667559ac9baf903e8fb89f1b00a0c45a"
-  integrity sha512-KanP80XxNK4bmQ1HKTcUjy/cdCt9n7knPMLK1vzHdOFymACHo+GbhgUjXjYdOCuBTv+ZwcjL2P2XDmBcYS9r8g==
+"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.12", "@embroider/macros@^1.16.5", "@embroider/macros@^1.16.9", "@embroider/macros@^1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.18.1.tgz#958ad926e848f58c849f5025a83209bcb48119d5"
+  integrity sha512-hOQyzFBT1Rd6RdY4AbRSSGSeXyUzUrU9o6GWGD/kxg7cggKQax4R486KE10ZVSPRNqhRiNUcqe2VWc/+e8Z0MQ==
   dependencies:
     "@embroider/shared-internals" "3.0.0"
     assert-never "^1.2.1"
@@ -1169,7 +1179,7 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@3.0.0":
+"@embroider/shared-internals@3.0.0", "@embroider/shared-internals@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-3.0.0.tgz#98251e6b99d36d64120361a449569ef5384b3812"
   integrity sha512-5J5ipUMCAinQS38WW7wedruq5Z4VnHvNo+ZgOduw0PtI9w0CQWx7/HE+98PBDW8jclikeF+aHwF317vc1hwuzg==
@@ -1920,6 +1930,16 @@
     babel-import-util "^2.1.1"
     semver "^7.7.1"
 
+"@warp-drive/build-config@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.7.0.tgz#1cd6004f213cc125205c1179604394320bbb5263"
+  integrity sha512-lCltr4xG9jQmBRlM8+gMJ06o3pnOHs7uDFdIX36dIczKCFjfTvaSVbYf+n/VLEAT4GyaMoQU11xkY1zHa5XucA==
+  dependencies:
+    "@embroider/addon-shim" "^1.10.0"
+    "@embroider/macros" "^1.18.1"
+    babel-import-util "^2.1.1"
+    semver "^7.7.2"
+
 "@warp-drive/core-types@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.6.0.tgz#7616920929a086b863a357c21f7fd29eb52031c9"
@@ -1928,6 +1948,14 @@
     "@embroider/macros" "^1.16.12"
     "@warp-drive/core" "5.6.0"
 
+"@warp-drive/core-types@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.7.0.tgz#b439bbef2473794ec1d327383f6d8e22b03956c4"
+  integrity sha512-M+bM7IWJVWP3WaRllhII752Q5IAdUh74eiRzhINm8rOBvpGteUaxYgOABXIiYE4rMm8ukTKy08aNSALs+Y+15g==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.7.0"
+
 "@warp-drive/core@5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.6.0.tgz#0f7a2355e54a86a35fd9849d4b8627fce8be22d0"
@@ -1935,6 +1963,14 @@
   dependencies:
     "@embroider/macros" "^1.16.12"
     "@warp-drive/build-config" "5.6.0"
+
+"@warp-drive/core@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.7.0.tgz#57130ec35da0949ae89ead8ae317a7ef9da41f6a"
+  integrity sha512-eaYcX5rtRQLWhU7b1RuSSri/jatHwZM09VPXxQgT9BnXlB5nbg008osdAQ/SwtArGLr0P6DeGiD1MazqSh1M2w==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/build-config" "5.7.0"
 
 "@warp-drive/ember@5.6.0", "@warp-drive/ember@^5.5.0":
   version "5.6.0"
@@ -8819,6 +8855,11 @@ semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.5.2, semve
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
   integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
+
+semver@^7.7.2:
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
+  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
 
 send@0.19.0:
   version "0.19.0"
