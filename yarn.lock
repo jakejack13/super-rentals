@@ -1068,6 +1068,14 @@
     "@embroider/macros" "^1.16.12"
     "@warp-drive/core" "5.6.0"
 
+"@ember-data/request@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.7.0.tgz#886098d201b5ed1e692f4afe606ddd3d870c5ce3"
+  integrity sha512-Yr0dDnC+AY0x9Ek8Lfk/2kK+X4LW4GEfie3RmrGZyQRFLeryE2DiJdBXITM/a/YLnu98+kRa0BPDVcHBOgpLVw==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.7.0"
+
 "@ember-data/rfc395-data@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@ember-data/rfc395-data/-/rfc395-data-0.0.4.tgz#ecb86efdf5d7733a76ff14ea651a1b0ed1f8a843"
