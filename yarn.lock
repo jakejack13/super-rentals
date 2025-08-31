@@ -1051,15 +1051,6 @@
     ember-cli-test-info "^1.0.0"
     inflection "~3.0.2"
 
-"@ember-data/request-utils@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/request-utils/-/request-utils-5.6.0.tgz#ce47e40fd73f12d847ef24f19374a782c4d7dc7f"
-  integrity sha512-bRT6NllMT59+25BwwnQDPnSa8FrlNUAFTX7pHr2eZMhnEwAa2VIttQyiZD4ZspDKESf2kkIooU+OECA7Kt/btA==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
-    "@warp-drive/core" "5.6.0"
-    "@warp-drive/utilities" "5.6.0"
-
 "@ember-data/request-utils@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@ember-data/request-utils/-/request-utils-5.7.0.tgz#30a80270af53d7cf32bc0e07da2a20f7cfb1b6d9"
@@ -1929,16 +1920,6 @@
   resolved "https://registry.yarnpkg.com/@types/symlink-or-copy/-/symlink-or-copy-1.2.2.tgz#51b1c00b516a5774ada5d611e65eb123f988ef8d"
   integrity sha512-MQ1AnmTLOncwEf9IVU+B2e4Hchrku5N67NkgcAHW0p3sdzPe0FNMANxEm6OJUzPniEQGkeT3OROLlCwZJLWFZA==
 
-"@warp-drive/build-config@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.6.0.tgz#1fbea70f64264b02d604ebb534e0ac54f6d9aa56"
-  integrity sha512-7qdE7x1U0yRhbGy1wO47lirgKO6cjMqmKJUdLhpIhX31fIo0MM2/6n8p/+2rNTlZiCMhLNeV7RelA8LoIkxW3Q==
-  dependencies:
-    "@embroider/addon-shim" "^1.9.0"
-    "@embroider/macros" "^1.16.12"
-    babel-import-util "^2.1.1"
-    semver "^7.7.1"
-
 "@warp-drive/build-config@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.7.0.tgz#1cd6004f213cc125205c1179604394320bbb5263"
@@ -1957,14 +1938,6 @@
     "@embroider/macros" "^1.18.1"
     "@warp-drive/core" "5.7.0"
 
-"@warp-drive/core@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.6.0.tgz#0f7a2355e54a86a35fd9849d4b8627fce8be22d0"
-  integrity sha512-pUt2QEWzhMkBD3tzjpDmycNsVQsvUBXfQpIrIQ8K55BS1b5fXNKXc/srOi6XoSy+elh7V7sgjdEZLOWP3ttcRw==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
-    "@warp-drive/build-config" "5.6.0"
-
 "@warp-drive/core@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.7.0.tgz#57130ec35da0949ae89ead8ae317a7ef9da41f6a"
@@ -1973,7 +1946,7 @@
     "@embroider/macros" "^1.18.1"
     "@warp-drive/build-config" "5.7.0"
 
-"@warp-drive/ember@5.7.0", "@warp-drive/ember@^5.5.0":
+"@warp-drive/ember@5.7.0", "@warp-drive/ember@^5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.7.0.tgz#a2b61830414e82bf026ac22b8dfb7994111f0591"
   integrity sha512-oCnEsphvDMEd9JfJzVTijg+qWQrQl5qNKEEzt5Mencp62pj3DSKFphsWsMRfSk7CedIN792NZDxxJHXqhwtBvA==
@@ -1996,13 +1969,6 @@
   integrity sha512-JRNtAD5Y+yZqJi49Ui0hKzLy8HaVVNuBaSw1eQZhWbK6KbdsJbTcNX+RHR5jIeyx8yrmHuTyfS0DrdRQtMJFfg==
   dependencies:
     "@embroider/macros" "^1.18.1"
-
-"@warp-drive/utilities@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/utilities/-/utilities-5.6.0.tgz#70d25c3746831ba44e20f96d75e267d78fdb09f2"
-  integrity sha512-97hUDe2tYU+eOcLlrdCs4Q0z8AjvFvkAWDhJo+5FAgQFNSlbHJzCYuv3jtAcvQUBoYqxTng+P8nFv4L0DiaPAw==
-  dependencies:
-    "@embroider/macros" "^1.16.12"
 
 "@warp-drive/utilities@5.7.0":
   version "5.7.0"
