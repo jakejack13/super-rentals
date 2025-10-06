@@ -1179,7 +1179,7 @@
     "@embroider/addon-shim" "^1.9.0"
     "@embroider/macros" "^1.16.9"
 
-"@embroider/addon-shim@^1.10.0", "@embroider/addon-shim@^1.8.5", "@embroider/addon-shim@^1.8.7", "@embroider/addon-shim@^1.8.9", "@embroider/addon-shim@^1.9.0":
+"@embroider/addon-shim@^1.10.0", "@embroider/addon-shim@^1.8.7", "@embroider/addon-shim@^1.8.9", "@embroider/addon-shim@^1.9.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.0.tgz#7c3325e0939674290a9ca4ad7d744ee69313c0a0"
   integrity sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==
@@ -3914,7 +3914,7 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
   integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
-decorator-transforms@^2.0.0:
+decorator-transforms@^2.0.0, decorator-transforms@^2.2.2:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/decorator-transforms/-/decorator-transforms-2.3.0.tgz#521d0617627e289dc47c2186787ac80390ee988a"
   integrity sha512-jo8c1ss9yFPudHuYYcrJ9jpkDZIoi+lOGvt+Uyp9B+dz32i50icRMx9Bfa8hEt7TnX1FyKWKkjV+cUdT/ep2kA==
@@ -4647,12 +4647,13 @@ ember-tracked-storage-polyfill@^1.0.0:
     ember-cli-babel "^7.26.3"
     ember-cli-htmlbars "^5.7.1"
 
-ember-welcome-page@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/ember-welcome-page/-/ember-welcome-page-7.0.2.tgz#c7d9818c454ee5b96b6d86b3e688957b26dce6bb"
-  integrity sha512-TyaKxFIRXhODW5BTbqD/by0Gu8Z9B9AA1ki3Bzzm6fOj2b30Qlprtt+XUG52kS0zVNmxYj/WWoT0TsKiU61VOw==
+ember-welcome-page@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/ember-welcome-page/-/ember-welcome-page-8.0.3.tgz#c1e598b6efbb1ff240de1f0c487bffcc429939df"
+  integrity sha512-UhGUp0ZWu+Lprj0Ib3LxkstvslTjPtxyU7Uub1A7LN3awwzoFvvJkbeas4aPN7eINvzPe/c8pjnucDRDiSbMlQ==
   dependencies:
-    "@embroider/addon-shim" "^1.8.5"
+    "@embroider/addon-shim" "^1.8.9"
+    decorator-transforms "^2.2.2"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
