@@ -1977,6 +1977,17 @@
     babel-import-util "^2.1.1"
     semver "^7.7.2"
 
+"@warp-drive/build-config@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.8.0.tgz#ba0a8ad3502ef3a566333e8fc233b23af747c718"
+  integrity sha512-p0Cgf/9qO9Ocv33RbsHhKTyQpiw+8FKHFOSvruAUrjtZCXzniqfnzLDv12XtufV7HIKe2aN5HCip6r5Q+xk6fg==
+  dependencies:
+    "@embroider/addon-shim" "^1.10.0"
+    "@embroider/macros" "^1.18.1"
+    babel-import-util "^2.1.1"
+    babel-plugin-debug-macros "^2.0.0"
+    semver "^7.7.2"
+
 "@warp-drive/core-types@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.7.0.tgz#b439bbef2473794ec1d327383f6d8e22b03956c4"
@@ -1985,6 +1996,14 @@
     "@embroider/macros" "^1.18.1"
     "@warp-drive/core" "5.7.0"
 
+"@warp-drive/core-types@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.8.0.tgz#1fb76ffabcdd3ae1b062993da183839e6e21cee1"
+  integrity sha512-jJRDRcJBiIvI27HRq/E9PVsXEAay2iWU27AzQ5zsU6mugo0cCgIC7F0aPd1Wfjq81j6ooL/tIg05cJ9TZJ32kA==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.8.0"
+
 "@warp-drive/core@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.7.0.tgz#57130ec35da0949ae89ead8ae317a7ef9da41f6a"
@@ -1992,6 +2011,14 @@
   dependencies:
     "@embroider/macros" "^1.18.1"
     "@warp-drive/build-config" "5.7.0"
+
+"@warp-drive/core@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.8.0.tgz#5828a46c546137efaebba41f9f1b70a7db5438d5"
+  integrity sha512-DkY8AjaeiMtijz9Ho1W3wKlaWGbhK7gOaOCXdRzCqNyKiwM+nOn2dkS/8uib5lpuv4m7QYgL2oF4uAWlINUFDA==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/build-config" "5.8.0"
 
 "@warp-drive/ember@5.7.0", "@warp-drive/ember@^5.7.0":
   version "5.7.0"
@@ -2500,7 +2527,7 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-babel-import-util@^2.0.0, babel-import-util@^2.1.1:
+babel-import-util@^2.0.0, babel-import-util@^2.0.2, babel-import-util@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-2.1.1.tgz#0f4905fe899abfb8cd835dd52f3df1966d1ffbb0"
   integrity sha512-3qBQWRjzP9NreSH/YrOEU1Lj5F60+pWSLP0kIdCWxjFHH7pX2YPHIxQ67el4gnMNfYoDxSDGcT0zpVlZ+gVtQA==
@@ -2531,6 +2558,14 @@ babel-plugin-debug-macros@^0.3.4:
   integrity sha512-wfel/vb3pXfwIDZUrkoDrn5FHmlWI96PCJ3UCDv2a86poJ3EQrnArNW5KfHSVJ9IOgxHbo748cQt7sDU+0KCEw==
   dependencies:
     semver "^5.3.0"
+
+babel-plugin-debug-macros@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-debug-macros/-/babel-plugin-debug-macros-2.0.0.tgz#41ec76b5b7aa93f872ff0a0488d1c233d7c76c46"
+  integrity sha512-7ZaLtXIY01PAPhLyjV3OACePnl+X5iQO7F4O/sOJHTfMf/36zyu14uVUxNiZmOUntYBsyT/VVplf1LrH6NcwvQ==
+  dependencies:
+    babel-import-util "^2.0.2"
+    semver "^7.6.0"
 
 babel-plugin-ember-data-packages-polyfill@^0.1.2:
   version "0.1.2"
