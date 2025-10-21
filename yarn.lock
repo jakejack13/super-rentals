@@ -1095,6 +1095,14 @@
     "@embroider/macros" "^1.18.1"
     "@warp-drive/core" "5.7.0"
 
+"@ember-data/store@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-5.8.0.tgz#835dfad3925a686fa937e23dac5856c2995c50db"
+  integrity sha512-vlycjD6PGzqmtdUbgUhQF2e3v+fniH+69uE2UAtpI3RHu9Al6TwoNAmWzK7U/7VC6E8bRN+EXNyzuX3ho+mybw==
+  dependencies:
+    "@embroider/macros" "^1.18.1"
+    "@warp-drive/core" "5.8.0"
+
 "@ember-data/tracking@5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@ember-data/tracking/-/tracking-5.7.0.tgz#41e39030c6d0fba273aeb6b96b2f2bdab3fd0067"
