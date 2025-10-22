@@ -46,7 +46,7 @@
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
-    "ember-data": "~5.7.0",
+    "ember-data": "~5.8.0",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^3.0.1",
     "ember-modifier": "^4.2.2",
@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "@ember-data/request": "5.8.0",
-    "@ember-data/request-utils": "5.7.0",
+    "@ember-data/request-utils": "5.8.0",
     "@ember-data/store": "5.8.0",
     "@ember/test-waiters": "^4.1.1",
     "@warp-drive/core-types": "5.8.0",
@@ -91,5 +91,8 @@
     "ember-qunit": "^9.0.4",
     "rsvp": "^4.8.5"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "resolutions": {
+    "@warp-drive/ember": "5.8.0"
+  }
 }
