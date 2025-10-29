@@ -11,24 +11,24 @@ which you can check out at https://guides.emberjs.com/release/tutorial/.
 
 You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-* A [Mapbox API token](https://account.mapbox.com/access-tokens/) (with the "styles:tiles" scope)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+- [Ember CLI](https://ember-cli.com/)
+- [Google Chrome](https://google.com/chrome/)
+- A [Mapbox API token](https://account.mapbox.com/access-tokens/) (with the "styles:tiles" scope)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd super-rentals`
-* `yarn install`
+- `git clone <repository-url>` this repository
+- `cd super-rentals`
+- `yarn install`
 
 ## Running / Development
 
-* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+- `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember serve`
+- Visit your app at [http://localhost:4200](http://localhost:4200).
+- Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ### Code Generators
 
@@ -36,19 +36,19 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-* `ember test`
-* `ember test --server`
+- `ember test`
+- `ember test --server`
 
 ### Linting
 
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
+- `yarn lint:hbs`
+- `yarn lint:js`
+- `yarn lint:js --fix`
 
 ### Building
 
-* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build` (development)
-* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build --environment production` (production)
+- `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build` (development)
+- `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build --environment production` (production)
 
 ### Deploying
 
@@ -56,8 +56,8 @@ Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+- [ember.js](https://emberjs.com/)
+- [ember-cli](https://ember-cli.com/)
+- Development Browser Extensions
+  - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
