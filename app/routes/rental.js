@@ -7,7 +7,7 @@ export default class RentalRoute extends Route {
 
   async model(params) {
     const { content } = await this.store.request(
-      findRecord('rental', params.rental_id),
+      findRecord('rental', params.rental_id)
     );
     return content.data;
   }
