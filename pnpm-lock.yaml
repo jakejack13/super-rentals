@@ -66,8 +66,8 @@ importers:
         specifier: ~5.8.0
         version: 5.8.0(@babel/core@7.28.5)(@ember/test-waiters@4.1.1)
       babel-plugin-ember-template-compilation:
-        specifier: ^2.4.1
-        version: 2.4.1
+        specifier: ^3.0.1
+        version: 3.0.1
       concurrently:
         specifier: ^9.2.1
         version: 9.2.1
