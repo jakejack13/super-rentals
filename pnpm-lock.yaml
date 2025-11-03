@@ -52,7 +52,7 @@ importers:
         version: 3.0.4(@embroider/core@4.2.5)
       '@embroider/vite':
         specifier: ^1.3.2
-        version: 1.3.6(@embroider/core@4.2.5)(rollup@4.52.5)(vite@7.1.12(@types/node@24.9.2)(terser@5.44.0))
+        version: 1.3.6(@embroider/core@4.2.5)(rollup@4.52.5)(vite@7.1.12(@types/node@24.10.0)(terser@5.44.0))
       '@eslint/js':
         specifier: ^9.37.0
         version: 9.38.0
@@ -79,7 +79,7 @@ importers:
         version: 2.11.1(webpack@5.102.1)
       ember-cli:
         specifier: ~6.8.0
-        version: 6.8.0(@types/node@24.9.2)(handlebars@4.7.8)(underscore@1.13.7)
+        version: 6.8.0(@types/node@24.10.0)(handlebars@4.7.8)(underscore@1.13.7)
       ember-cli-babel:
         specifier: ^8.2.0
         version: 8.2.0(@babel/core@7.28.5)
@@ -129,8 +129,8 @@ importers:
         specifier: ^8.2.5
         version: 8.2.5(eslint@9.38.0)
       globals:
-        specifier: ^16.4.0
-        version: 16.4.0
+        specifier: ^16.5.0
+        version: 16.5.0
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -157,7 +157,7 @@ importers:
         version: 4.0.0(@babel/core@7.28.5)
       vite:
         specifier: ^7.1.9
-        version: 7.1.12(@types/node@24.9.2)(terser@5.44.0)
+        version: 7.1.12(@types/node@24.10.0)(terser@5.44.0)
 
 packages:
 
@@ -1483,6 +1483,9 @@ packages:
 
   '@types/minimatch@3.0.5':
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
+
+  '@types/node@24.10.0':
+    resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
 
   '@types/node@24.9.2':
     resolution: {integrity: sha512-uWN8YqxXxqFMX2RqGOrumsKeti4LlmIMIyV0lgut4jx7KQBcBiW6vkDtIBvHnHIquwNfJhk8v2OtmO8zXWHfPA==}
@@ -3523,8 +3526,8 @@ packages:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
     engines: {node: '>=18'}
 
-  globals@16.4.0:
-    resolution: {integrity: sha512-ob/2LcVVaVGCYN+r14cnwnoDPUufjiYgSqRhiFD0Q1iI4Odora5RE8Iv1D24hAz5oMophRGkGz+yuvQmmUMnMw==}
+  globals@16.5.0:
+    resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -7202,7 +7205,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.3.6(@embroider/core@4.2.5)(rollup@4.52.5)(vite@7.1.12(@types/node@24.9.2)(terser@5.44.0))':
+  '@embroider/vite@1.3.6(@embroider/core@4.2.5)(rollup@4.52.5)(vite@7.1.12(@types/node@24.10.0)(terser@5.44.0))':
     dependencies:
       '@babel/core': 7.28.5
       '@embroider/core': 4.2.5
@@ -7221,7 +7224,7 @@ snapshots:
       send: 0.18.0
       source-map-url: 0.4.1
       terser: 5.44.0
-      vite: 7.1.12(@types/node@24.9.2)(terser@5.44.0)
+      vite: 7.1.12(@types/node@24.10.0)(terser@5.44.0)
     transitivePeerDependencies:
       - '@glint/template'
       - bufferutil
@@ -7488,12 +7491,12 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@inquirer/external-editor@1.0.2(@types/node@24.9.2)':
+  '@inquirer/external-editor@1.0.2(@types/node@24.10.0)':
     dependencies:
       chardet: 2.1.0
       iconv-lite: 0.7.0
     optionalDependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.0
 
   '@inquirer/figures@1.0.14': {}
 
@@ -7728,6 +7731,10 @@ snapshots:
   '@types/mime@1.3.5': {}
 
   '@types/minimatch@3.0.5': {}
+
+  '@types/node@24.10.0':
+    dependencies:
+      undici-types: 7.16.0
 
   '@types/node@24.9.2':
     dependencies:
@@ -9291,7 +9298,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli@6.8.0(@types/node@24.9.2)(handlebars@4.7.8)(underscore@1.13.7):
+  ember-cli@6.8.0(@types/node@24.10.0)(handlebars@4.7.8)(underscore@1.13.7):
     dependencies:
       '@ember-tooling/blueprint-blueprint': 0.2.1
       '@ember-tooling/blueprint-model': 0.4.1
@@ -9347,7 +9354,7 @@ snapshots:
       heimdalljs-logger: 0.1.10
       http-proxy: 1.18.1
       inflection: 2.0.1
-      inquirer: 9.3.8(@types/node@24.9.2)
+      inquirer: 9.3.8(@types/node@24.10.0)
       is-git-url: 1.0.0
       is-language-code: 3.1.0
       isbinaryfile: 5.0.6
@@ -10509,7 +10516,7 @@ snapshots:
 
   globals@15.15.0: {}
 
-  globals@16.4.0: {}
+  globals@16.5.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -10770,9 +10777,9 @@ snapshots:
       strip-ansi: 6.0.1
       through: 2.3.8
 
-  inquirer@9.3.8(@types/node@24.9.2):
+  inquirer@9.3.8(@types/node@24.10.0):
     dependencies:
-      '@inquirer/external-editor': 1.0.2(@types/node@24.9.2)
+      '@inquirer/external-editor': 1.0.2(@types/node@24.10.0)
       '@inquirer/figures': 1.0.14
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
@@ -11015,7 +11022,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -13057,7 +13064,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@7.1.12(@types/node@24.9.2)(terser@5.44.0):
+  vite@7.1.12(@types/node@24.10.0)(terser@5.44.0):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -13066,7 +13073,7 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.0
       fsevents: 2.3.3
       terser: 5.44.0
 
