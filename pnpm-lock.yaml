@@ -45,8 +45,8 @@ importers:
         specifier: ^0.1.3
         version: 0.1.3
       '@embroider/macros':
-        specifier: ^1.19.1
-        version: 1.19.2
+        specifier: ^1.19.4
+        version: 1.19.4
       '@embroider/router':
         specifier: ^3.0.4
         version: 3.0.4(@embroider/core@4.2.7)
@@ -1944,8 +1944,8 @@ packages:
     resolution: {integrity: sha512-JMWsdF+O8Orq3EMukbUN1QfbLK9mX2CkUmQBcW2T0s8OmdAUL5LLM/6wFwSrqXzlXB13yhyK9gTKS1rIizOduQ==}
     hasBin: true
 
-  baseline-browser-mapping@2.8.26:
-    resolution: {integrity: sha512-73lC1ugzwoaWCLJ1LvOgrR5xsMLTqSKIEoMHVtL9E/HNk0PXtTM76ZIm84856/SF7Nv8mPZxKoBsgpm0tR1u1Q==}
+  baseline-browser-mapping@2.8.27:
+    resolution: {integrity: sha512-2CXFpkjVnY2FT+B6GrSYxzYf65BJWEqz5tIRHCvNsZZ2F3CmsCB37h8SpYgKG7y9C4YAeTipIPWG7EmFmhAeXA==}
     hasBin: true
 
   basic-auth@2.0.1:
@@ -7055,7 +7055,7 @@ snapshots:
     dependencies:
       '@ember/test-waiters': 4.1.1
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       '@simple-dom/interface': 1.4.0
       decorator-transforms: 2.3.0(@babel/core@7.28.5)
       dom-element-descriptors: 0.5.1
@@ -7067,7 +7067,7 @@ snapshots:
   '@ember/test-waiters@4.1.1':
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -7765,7 +7765,7 @@ snapshots:
 
   '@types/fs-extra@5.1.0':
     dependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
 
   '@types/fs-extra@8.1.5':
     dependencies:
@@ -7773,7 +7773,7 @@ snapshots:
 
   '@types/glob@9.0.0':
     dependencies:
-      glob: 8.1.0
+      glob: 9.3.5
 
   '@types/http-errors@2.0.5': {}
 
@@ -7880,7 +7880,7 @@ snapshots:
   '@warp-drive/ember@5.8.0(@babel/core@7.28.5)(@ember/test-waiters@4.1.1)':
     dependencies:
       '@ember/test-waiters': 4.1.1
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       '@warp-drive/core': 5.8.0(@babel/core@7.28.5)
     transitivePeerDependencies:
       - '@babel/core'
@@ -8316,7 +8316,7 @@ snapshots:
 
   baseline-browser-mapping@2.8.20: {}
 
-  baseline-browser-mapping@2.8.26: {}
+  baseline-browser-mapping@2.8.27: {}
 
   basic-auth@2.0.1:
     dependencies:
@@ -8687,7 +8687,7 @@ snapshots:
 
   browserslist@4.28.0:
     dependencies:
-      baseline-browser-mapping: 2.8.26
+      baseline-browser-mapping: 2.8.27
       caniuse-lite: 1.0.30001754
       electron-to-chromium: 1.5.250
       node-releases: 2.0.27
@@ -9181,7 +9181,7 @@ snapshots:
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.28.5)
       '@babel/plugin-transform-class-static-block': 7.28.3(@babel/core@7.28.5)
       '@babel/preset-env': 7.28.5(@babel/core@7.28.5)
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       '@embroider/shared-internals': 2.9.1
       babel-loader: 8.4.1(@babel/core@7.28.5)(webpack@5.102.1)
       babel-plugin-ember-modules-api-polyfill: 3.5.0
@@ -9525,7 +9525,7 @@ snapshots:
       '@ember-data/tracking': 5.6.0(@ember/test-waiters@4.1.1)
       '@ember/edition-utils': 1.2.0
       '@ember/test-waiters': 4.1.1
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       '@warp-drive/core': 5.6.0
       '@warp-drive/core-types': 5.6.0
       '@warp-drive/ember': 5.6.0(@ember/test-waiters@4.1.1)
@@ -9581,7 +9581,7 @@ snapshots:
     dependencies:
       '@ember/test-helpers': 5.4.0(@babel/core@7.28.5)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       qunit: 2.24.2
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
