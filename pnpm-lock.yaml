@@ -33,8 +33,8 @@ importers:
         specifier: ^4.1.1
         version: 4.1.1
       '@embroider/compat':
-        specifier: ^4.1.7
-        version: 4.1.8(@embroider/core@4.2.7)
+        specifier: ^4.1.10
+        version: 4.1.10(@embroider/core@4.2.7)
       '@embroider/config-meta-loader':
         specifier: ^1.0.0
         version: 1.0.0
@@ -885,11 +885,11 @@ packages:
     resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/compat@4.1.8':
-    resolution: {integrity: sha512-YNPMTYViccpQafTpmZ1NknqcB8X+lPgEEF0r4F7//JZTNl9P+4PvJYqfGQeSvw5KWE7kn0ju/vdL4WrneA9Flw==}
+  '@embroider/compat@4.1.10':
+    resolution: {integrity: sha512-GtANRyjHuU8FQoBukPBqATWHb8Ck92FLqWc8uWGNyVHX86aInvXJyh947/rpVGi0vzrFJv5u3AEsp5a6/JPg1g==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
-      '@embroider/core': ^4.2.5
+      '@embroider/core': ^4.2.7
 
   '@embroider/config-meta-loader@1.0.0':
     resolution: {integrity: sha512-qznkdjgEGPe6NM94hZNXvOm/WhrJwBh8FtSQZ+nGjh9TOjY42tOiTEevFuM0onNXUn6bpdGzmjwKo2xY2jxQxQ==}
@@ -901,15 +901,6 @@ packages:
 
   '@embroider/legacy-inspector-support@0.1.3':
     resolution: {integrity: sha512-0VzD1xExkT78a1CUiW8wZ5VZDL4bVyMSc3t8E/RiAW1X6TlyKIA/m6zoQgsQtQIiiTPPxH0/1Tdd0F7b5//etw==}
-
-  '@embroider/macros@1.19.2':
-    resolution: {integrity: sha512-lCG8Y58ZGz9kFvvEJjs3c8VDKDtLYV6iszEuQDyBgOtf1F+zizuZJFchLHSP4Vw5ND3Q4iF5I7tFQLGh0wODDg==}
-    engines: {node: 12.* || 14.* || >= 16}
-    peerDependencies:
-      '@glint/template': ^1.0.0
-    peerDependenciesMeta:
-      '@glint/template':
-        optional: true
 
   '@embroider/macros@1.19.4':
     resolution: {integrity: sha512-x4wrnkE6fPN6mOyJeJv2I+lpKE2pHPq25S8bCiRJJb3H3RyiTm2LjSeB4AOVTi8YUjiWToI4PBgZOtx44hM4LA==}
@@ -7058,7 +7049,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/compat@4.1.8(@embroider/core@4.2.7)':
+  '@embroider/compat@4.1.10(@embroider/core@4.2.7)':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/core': 7.28.5
@@ -7070,7 +7061,7 @@ snapshots:
       '@babel/runtime': 7.28.4
       '@babel/traverse': 7.28.5
       '@embroider/core': 4.2.7
-      '@embroider/macros': 1.19.2
+      '@embroider/macros': 1.19.4
       '@types/babel__code-frame': 7.0.6
       assert-never: 1.4.0
       babel-import-util: 3.0.1
@@ -7152,19 +7143,6 @@ snapshots:
   '@embroider/legacy-inspector-support@0.1.3':
     dependencies:
       '@embroider/addon-shim': 1.10.0
-    transitivePeerDependencies:
-      - supports-color
-
-  '@embroider/macros@1.19.2':
-    dependencies:
-      '@embroider/shared-internals': 3.0.1
-      assert-never: 1.4.0
-      babel-import-util: 3.0.1
-      ember-cli-babel: 7.26.11
-      find-up: 5.0.0
-      lodash: 4.17.21
-      resolve: 1.22.11
-      semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
 
@@ -7693,7 +7671,7 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
 
   '@types/chai-as-promised@7.1.8':
     dependencies:
@@ -7703,7 +7681,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
 
   '@types/cors@2.8.19':
     dependencies:
@@ -7728,7 +7706,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.7':
     dependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -7780,16 +7758,16 @@ snapshots:
   '@types/send@0.17.6':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
 
   '@types/serve-static@1.15.10':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 24.9.2
+      '@types/node': 24.10.1
       '@types/send': 0.17.6
 
   '@types/symlink-or-copy@1.2.2': {}
