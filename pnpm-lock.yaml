@@ -48,8 +48,8 @@ importers:
         specifier: ^1.19.4
         version: 1.19.4
       '@embroider/router':
-        specifier: ^3.0.4
-        version: 3.0.4(@embroider/core@4.2.8)
+        specifier: ^3.0.5
+        version: 3.0.5(@embroider/core@4.2.8)
       '@embroider/vite':
         specifier: ^1.4.1
         version: 1.4.1(@embroider/core@4.2.8)(rollup@4.53.1)(vite@7.2.2(@types/node@24.10.1)(terser@5.44.1))
@@ -922,8 +922,8 @@ packages:
     resolution: {integrity: sha512-WFsw8nQpHZiWGEDYpa/A79KEFfTisqteXbY+jg9eZiww1r1G+LZvsmdszDp86TkotUSCqrMbK/ewn0jR1CJmqg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/router@3.0.4':
-    resolution: {integrity: sha512-kSygi43vpyqaX7gOaIPFY6WkqHm0NlvMSFJBG98Z2DNxjalGFI3+vzVEmguzQd5fgiMiZcXVAug4yjn1CKdXTA==}
+  '@embroider/router@3.0.5':
+    resolution: {integrity: sha512-qcLuUeuBr34L+ZhaoD+e2tnDFAGMhJeGc530Gt6XNVWkWo6a6+0sV0NF70dUO3IpPb40w2J5R1KuPhQNDtRtoQ==}
     peerDependencies:
       '@embroider/core': ^2.0.0||^3.0.0||^4.0.0-alpha.0
     peerDependenciesMeta:
@@ -7186,10 +7186,10 @@ snapshots:
       mem: 8.1.1
       resolve.exports: 2.0.3
 
-  '@embroider/router@3.0.4(@embroider/core@4.2.8)':
+  '@embroider/router@3.0.5(@embroider/core@4.2.8)':
     dependencies:
       '@ember/test-waiters': 4.1.1
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.10.2
     optionalDependencies:
       '@embroider/core': 4.2.8
     transitivePeerDependencies:
