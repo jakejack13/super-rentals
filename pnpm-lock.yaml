@@ -51,8 +51,8 @@ importers:
         specifier: ^3.0.5
         version: 3.0.5(@embroider/core@4.2.8)
       '@embroider/vite':
-        specifier: ^1.4.1
-        version: 1.4.1(@embroider/core@4.2.8)(rollup@4.53.3)(vite@7.2.4(@types/node@24.10.1)(terser@5.44.1))
+        specifier: ^1.4.2
+        version: 1.4.2(@embroider/core@4.2.8)(rollup@4.53.3)(vite@7.2.4(@types/node@24.10.1)(terser@5.44.1))
       '@eslint/js':
         specifier: ^9.39.1
         version: 9.39.1
@@ -915,9 +915,6 @@ packages:
       '@glint/template':
         optional: true
 
-  '@embroider/reverse-exports@0.1.2':
-    resolution: {integrity: sha512-TgjQalfB42RnwdRVApjcvHSVjBe+7MJfCZV0Cs1jv2QgnFGr/6f5X19PKvmF4FU4xbBf7yOsIWrVvYvidWnXlw==}
-
   '@embroider/reverse-exports@0.2.0':
     resolution: {integrity: sha512-WFsw8nQpHZiWGEDYpa/A79KEFfTisqteXbY+jg9eZiww1r1G+LZvsmdszDp86TkotUSCqrMbK/ewn0jR1CJmqg==}
     engines: {node: 12.* || 14.* || >= 16}
@@ -938,10 +935,10 @@ packages:
     resolution: {integrity: sha512-d7RQwDwqqHo7YvjE9t1rtIrCCYtbSoO0uRq2ikVhRh4hGS5OojZNu2ZtS0Wqrg+V72CRtMFr/hibTvHNsRM2Lg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/vite@1.4.1':
-    resolution: {integrity: sha512-3z392+ubPuxsp+/PoHosdI8Mx8EeOsKfXTiGOPpDqFPfCTUQp7Fa6FmKqm3b7iQoIVsb2VZb1lOZrsqdJoA1Zw==}
+  '@embroider/vite@1.4.2':
+    resolution: {integrity: sha512-tYxaQKmi9cA+Jwy5nwtVe6KUEhkIWrd/0WUVORfLDTWna2DjYOMezmUEvAJA0raINCYrRu+yotdri3Bj+p/veA==}
     peerDependencies:
-      '@embroider/core': ^4.2.7
+      '@embroider/core': ^4.2.8
       vite: '>= 5.2.0'
 
   '@esbuild/aix-ppc64@0.25.12':
@@ -1939,8 +1936,8 @@ packages:
     resolution: {integrity: sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg==}
     engines: {node: '>=0.10.0'}
 
-  baseline-browser-mapping@2.8.27:
-    resolution: {integrity: sha512-2CXFpkjVnY2FT+B6GrSYxzYf65BJWEqz5tIRHCvNsZZ2F3CmsCB37h8SpYgKG7y9C4YAeTipIPWG7EmFmhAeXA==}
+  baseline-browser-mapping@2.8.30:
+    resolution: {integrity: sha512-aTUKW4ptQhS64+v2d6IkPzymEzzhw+G0bA1g3uBRV3+ntkH+svttKseW5IOR4Ed6NUVKqnY7qT3dKvzQ7io4AA==}
     hasBin: true
 
   basic-auth@2.0.1:
@@ -2155,8 +2152,8 @@ packages:
     resolution: {integrity: sha512-RbsNrFyhwkx+6psk/0fK/Q9orOUr9VMxohGd8vTa4djf4TGLfblBgUfqZChrZuW0Q+mz2eBPFLusw9Jfukzmhg==}
     hasBin: true
 
-  caniuse-lite@1.0.30001754:
-    resolution: {integrity: sha512-x6OeBXueoAceOmotzx3PO4Zpt4rzpeIFsSr6AAePTZxSkXiYDUmpypEl7e2+8NCd9bD7bXjqyef8CJYPC1jfxg==}
+  caniuse-lite@1.0.30001756:
+    resolution: {integrity: sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==}
 
   capture-exit@2.0.0:
     resolution: {integrity: sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==}
@@ -2758,8 +2755,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.250:
-    resolution: {integrity: sha512-/5UMj9IiGDMOFBnN4i7/Ry5onJrAGSbOGo3s9FEKmwobGq6xw832ccET0CE3CkkMBZ8GJSlUIesZofpyurqDXw==}
+  electron-to-chromium@1.5.259:
+    resolution: {integrity: sha512-I+oLXgpEJzD6Cwuwt1gYjxsDmu/S/Kd41mmLA3O+/uH2pFRO/DvOjUyGozL8j3KeLV6WyZ7ssPwELMsXCcsJAQ==}
 
   ember-auto-import@2.11.2:
     resolution: {integrity: sha512-eR67ggmPQ6Upx6Smbur0HTRYqQshyxJMKPkWBHwWZmZ8sOA5piR0raL7ccKO0Hrn4ZEkp8ih24yAwvssb6K4NQ==}
@@ -7176,11 +7173,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/reverse-exports@0.1.2':
-    dependencies:
-      mem: 8.1.1
-      resolve.exports: 2.0.3
-
   '@embroider/reverse-exports@0.2.0':
     dependencies:
       mem: 8.1.1
@@ -7231,12 +7223,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.4.1(@embroider/core@4.2.8)(rollup@4.53.3)(vite@7.2.4(@types/node@24.10.1)(terser@5.44.1))':
+  '@embroider/vite@1.4.2(@embroider/core@4.2.8)(rollup@4.53.3)(vite@7.2.4(@types/node@24.10.1)(terser@5.44.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@embroider/core': 4.2.8
       '@embroider/macros': 1.19.4
-      '@embroider/reverse-exports': 0.1.2
+      '@embroider/reverse-exports': 0.2.0
       '@rollup/pluginutils': 5.3.0(rollup@4.53.3)
       assert-never: 1.4.0
       browserslist: 4.28.0
@@ -8291,7 +8283,7 @@ snapshots:
       mixin-deep: 1.3.2
       pascalcase: 0.1.1
 
-  baseline-browser-mapping@2.8.27: {}
+  baseline-browser-mapping@2.8.30: {}
 
   basic-auth@2.0.1:
     dependencies:
@@ -8654,9 +8646,9 @@ snapshots:
 
   browserslist@4.28.0:
     dependencies:
-      baseline-browser-mapping: 2.8.27
-      caniuse-lite: 1.0.30001754
-      electron-to-chromium: 1.5.250
+      baseline-browser-mapping: 2.8.30
+      caniuse-lite: 1.0.30001756
+      electron-to-chromium: 1.5.259
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -8723,7 +8715,7 @@ snapshots:
     dependencies:
       tmp: 0.0.28
 
-  caniuse-lite@1.0.30001754: {}
+  caniuse-lite@1.0.30001756: {}
 
   capture-exit@2.0.0:
     dependencies:
@@ -9134,7 +9126,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.250: {}
+  electron-to-chromium@1.5.259: {}
 
   ember-auto-import@2.11.2(webpack@5.102.1):
     dependencies:
