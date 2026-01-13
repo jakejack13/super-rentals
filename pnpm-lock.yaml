@@ -12,8 +12,8 @@ importers:
         specifier: ^7.28.6
         version: 7.28.6
       '@babel/eslint-parser':
-        specifier: ^7.28.4
-        version: 7.28.5(@babel/core@7.28.6)(eslint@9.38.0)
+        specifier: ^7.28.6
+        version: 7.28.6(@babel/core@7.28.6)(eslint@9.38.0)
       '@babel/plugin-transform-runtime':
         specifier: ^7.28.3
         version: 7.28.5(@babel/core@7.28.6)
@@ -184,8 +184,8 @@ packages:
     resolution: {integrity: sha512-H3mcG6ZDLTlYfaSNi0iOKkigqMFvkTKlGUYlD8GW7nNOYRrevuA46iTypPyv+06V3fEmvvazfntkBU34L0azAw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/eslint-parser@7.28.5':
-    resolution: {integrity: sha512-fcdRcWahONYo+JRnJg1/AekOacGvKx12Gu0qXJXFi2WBqQA1i7+O5PaxRB7kxE/Op94dExnCiiar6T09pvdHpA==}
+  '@babel/eslint-parser@7.28.6':
+    resolution: {integrity: sha512-QGmsKi2PBO/MHSQk+AAgA9R6OHQr+VqnniFE0eMWZcVcfBZoA2dKn2hUsl3Csg/Plt9opRUWdY7//VXsrIlEiA==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -6245,7 +6245,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/eslint-parser@7.28.5(@babel/core@7.28.6)(eslint@9.38.0)':
+  '@babel/eslint-parser@7.28.6(@babel/core@7.28.6)(eslint@9.38.0)':
     dependencies:
       '@babel/core': 7.28.6
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -9789,7 +9789,7 @@ snapshots:
   ember-eslint-parser@0.5.13(@babel/core@7.28.6)(eslint@9.38.0)(typescript@5.9.3):
     dependencies:
       '@babel/core': 7.28.6
-      '@babel/eslint-parser': 7.28.5(@babel/core@7.28.6)(eslint@9.38.0)
+      '@babel/eslint-parser': 7.28.6(@babel/core@7.28.6)(eslint@9.38.0)
       '@glimmer/syntax': 0.95.0
       '@typescript-eslint/tsconfig-utils': 8.48.0(typescript@5.9.3)
       content-tag: 2.0.3
