@@ -30,7 +30,7 @@
     "./*": "./app/*"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.4",
+    "@babel/core": "^7.28.6",
     "@babel/runtime": "^7.28.4",
     "@babel/plugin-transform-runtime": "^7.28.3",
     "@babel/eslint-parser": "^7.28.4",
