@@ -40,7 +40,7 @@
     "@ember/test-waiters": "^4.1.1",
     "@embroider/macros": "^1.19.7",
     "@embroider/core": "^4.4.3",
-    "@embroider/vite": "^1.5.0",
+    "@embroider/vite": "^1.5.1",
     "@embroider/compat": "^4.1.12",
     "@embroider/router": "^3.0.6",
     "@embroider/config-meta-loader": "^1.0.0",
