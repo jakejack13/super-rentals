@@ -18,8 +18,8 @@ importers:
         specifier: ^7.29.0
         version: 7.29.0(@babel/core@7.29.0)
       '@babel/runtime':
-        specifier: ^7.28.6
-        version: 7.28.6
+        specifier: ^7.29.2
+        version: 7.29.2
       '@ember/optional-features':
         specifier: ^3.0.0
         version: 3.0.0(@types/node@25.5.0)
@@ -52,7 +52,7 @@ importers:
         version: 3.0.6(@babel/core@7.29.0)(@embroider/core@4.4.5)
       '@embroider/vite':
         specifier: ^1.6.1
-        version: 1.6.1(@embroider/core@4.4.5)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.0))
+        version: 1.6.1(@embroider/core@4.4.5)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.1))
       '@eslint/js':
         specifier: ^9.39.4
         version: 9.39.4
@@ -157,7 +157,7 @@ importers:
         version: 4.1.0(@babel/core@7.29.0)
       vite:
         specifier: ^8.0.0
-        version: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.0)
+        version: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.1)
 
 packages:
 
@@ -729,8 +729,8 @@ packages:
   '@babel/runtime@7.12.18':
     resolution: {integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==}
 
-  '@babel/runtime@7.28.6':
-    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
+  '@babel/runtime@7.29.2':
+    resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.28.6':
@@ -3234,8 +3234,8 @@ packages:
     resolution: {integrity: sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==}
     engines: {node: '>=10.13.0'}
 
-  enhanced-resolve@5.20.0:
-    resolution: {integrity: sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==}
+  enhanced-resolve@5.20.1:
+    resolution: {integrity: sha512-Qohcme7V1inbAfvjItgw0EaxVX5q2rdVEZHRBrEQdRZTssLDGsL8Lwrznl8oQ/6kuTJONLaDcGjkNP247XEhcA==}
     engines: {node: '>=10.13.0'}
 
   ensure-posix-path@1.1.1:
@@ -5900,6 +5900,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  terser@5.46.1:
+    resolution: {integrity: sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   testem@3.18.0:
     resolution: {integrity: sha512-HEj+HSms8aM4GLn2bEkcR4rVb3Fr0C34uEUATbhVr/UirZkXh+iv+TuA7IGLC4KVGmuYSA0SjAYckci82hShEQ==}
     engines: {node: '>= 7.*'}
@@ -7117,7 +7122,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.13.11
 
-  '@babel/runtime@7.28.6': {}
+  '@babel/runtime@7.29.2': {}
 
   '@babel/template@7.28.6':
     dependencies:
@@ -7442,7 +7447,7 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.28.6(@babel/core@7.29.0)
       '@babel/plugin-transform-runtime': 7.29.0(@babel/core@7.29.0)
       '@babel/preset-env': 7.29.0(@babel/core@7.29.0)
-      '@babel/runtime': 7.28.6
+      '@babel/runtime': 7.29.2
       '@babel/traverse': 7.29.0
       '@embroider/core': 4.4.5
       '@embroider/macros': 1.20.1(@babel/core@7.29.0)
@@ -7595,7 +7600,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.6.1(@embroider/core@4.4.5)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.0))':
+  '@embroider/vite@1.6.1(@embroider/core@4.4.5)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.1))':
     dependencies:
       '@babel/core': 7.29.0
       '@embroider/core': 4.4.5
@@ -7613,7 +7618,7 @@ snapshots:
       send: 0.18.0
       source-map-url: 0.4.1
       terser: 5.46.0
-      vite: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.0)
+      vite: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.1)
     transitivePeerDependencies:
       - '@glint/template'
       - bufferutil
@@ -10228,7 +10233,7 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.3.0
 
-  enhanced-resolve@5.20.0:
+  enhanced-resolve@5.20.1:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.0
@@ -13327,12 +13332,19 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
-      terser: 5.46.0
+      terser: 5.46.1
       webpack: 5.102.1(esbuild@0.27.2)
     optionalDependencies:
       esbuild: 0.27.2
 
   terser@5.46.0:
+    dependencies:
+      '@jridgewell/source-map': 0.3.11
+      acorn: 8.16.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+
+  terser@5.46.1:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.16.0
@@ -13647,7 +13659,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.0):
+  vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(terser@5.46.1):
     dependencies:
       '@oxc-project/runtime': 0.115.0
       lightningcss: 1.32.0
@@ -13659,7 +13671,7 @@ snapshots:
       '@types/node': 25.5.0
       esbuild: 0.27.2
       fsevents: 2.3.3
-      terser: 5.46.0
+      terser: 5.46.1
 
   w3c-xmlserializer@5.0.0:
     dependencies:
@@ -13734,7 +13746,7 @@ snapshots:
       acorn-import-phases: 1.0.4(acorn@8.16.0)
       browserslist: 4.28.1
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.20.0
+      enhanced-resolve: 5.20.1
       es-module-lexer: 1.7.0
       eslint-scope: 5.1.1
       events: 3.3.0
