@@ -51,8 +51,8 @@ importers:
         specifier: ^3.0.6
         version: 3.0.6(@babel/core@7.29.7)(@embroider/core@4.6.0)
       '@embroider/vite':
-        specifier: ^1.7.3
-        version: 1.7.3(@embroider/core@4.6.0)(vite@8.0.14(@types/node@25.9.1)(esbuild@0.27.2)(terser@5.48.0)(yaml@2.9.0))
+        specifier: ^1.7.4
+        version: 1.7.4(@embroider/core@4.6.0)(vite@8.0.14(@types/node@25.9.1)(esbuild@0.27.2)(terser@5.48.0)(yaml@2.9.0))
       '@eslint/js':
         specifier: ^9.39.4
         version: 9.39.4
@@ -1325,15 +1325,6 @@ packages:
   '@embroider/legacy-inspector-support@0.1.3':
     resolution: {integrity: sha512-0VzD1xExkT78a1CUiW8wZ5VZDL4bVyMSc3t8E/RiAW1X6TlyKIA/m6zoQgsQtQIiiTPPxH0/1Tdd0F7b5//etw==}
 
-  '@embroider/macros@1.20.2':
-    resolution: {integrity: sha512-WJWSkG9vIL0s93vKwtNFqqAOCOflNkWNpqsC7VAqXeeTKNpCc7wtdOhPkNGJpb52CEt7vlQ5R/zMyCfGAB7MEA==}
-    engines: {node: 12.* || 14.* || >= 16}
-    peerDependencies:
-      '@glint/template': ^1.0.0
-    peerDependenciesMeta:
-      '@glint/template':
-        optional: true
-
   '@embroider/macros@1.20.3':
     resolution: {integrity: sha512-8sClktPsQ20KgnWl8id6NL5G/hv3+Q5OlnQ4y4XQjYS/RsPy8/C9tU75/2ujgToi1YfX64UykjCau6PXqKDfUQ==}
     engines: {node: 12.* || 14.* || >= 16}
@@ -1359,18 +1350,14 @@ packages:
     resolution: {integrity: sha512-d96ub/WkS1Gx6dRDxZ0mCRPwFAHIMlMr2iti6uTYxTFzC85Wgt6j7bYr6ppkEuwEwKQVyzKRT0kTsJz6P74caQ==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/shared-internals@3.0.2':
-    resolution: {integrity: sha512-/SusdG+zgosc3t+9sPFVKSFOYyiSgLfXOT6lYNWoG1YtnhWDxlK4S8leZ0jhcVjemdaHln5rTyxCnq8oFLxqpQ==}
-    engines: {node: 12.* || 14.* || >= 16}
-
   '@embroider/shared-internals@3.1.0':
     resolution: {integrity: sha512-DAEB8B0rAHMYnwCPIeYIrZ6uKGEesQx5XqLuO0beqDnZLwsIRcvWSSbpUgOu6nwqXm5EiJiJaTbrHedOSrlR5g==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/vite@1.7.3':
-    resolution: {integrity: sha512-Q+V5pKvP9kXlZ3snn433QPd/PbIIn5vwRLs/SU/egvN2ys+f8VSoL5tb5OdvwmXtAPgeqBuZ4kBp4hQVspzftQ==}
+  '@embroider/vite@1.7.4':
+    resolution: {integrity: sha512-tuJG6nGiMCJevrfboIZU2/CzokyVyDXtnN9bXVY0dvRWFQjh0vsCM12rLzRMQeP/tin/pXOg6dNe4O3Urc9SOA==}
     peerDependencies:
-      '@embroider/core': ^4.4.7
+      '@embroider/core': ^4.5.0
       vite: '>= 5.2.0'
 
   '@emnapi/core@1.10.0':
@@ -2769,8 +2756,8 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  baseline-browser-mapping@2.10.31:
-    resolution: {integrity: sha512-MujYO3eP72uvmSE0i4wltsodRfIpZATP3jvzRNRGGxgzId7aVocVJJV3nf01qnzzKFGxQVC9bpWxl5cjxTr/7Q==}
+  baseline-browser-mapping@2.10.32:
+    resolution: {integrity: sha512-wbPvpyjJPC0zdfdKXxqEL3Ea+bOMD/87X4lftiJkkaBiuG6ALQy1SLmEd7BSmVCuwCQsBrCamgBoLyfFDD1EPg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -3508,8 +3495,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.360:
-    resolution: {integrity: sha512-GkcBt6YYAw9SxFWn+xVar4cLVGlXVuswwtRLBozi2zp0GjXs4ZnOrqV4zbXzg35n7w81hCkyJNYicgXlVHAmBA==}
+  electron-to-chromium@1.5.363:
+    resolution: {integrity: sha512-VjUKPyWzGnT1fujlkEGC/BvN70Hh70KXtAqcmniXviYlJC/ivcT+BWGPyxWVbJZLfvtKR6dqg1L7T7pgAMBtWA==}
 
   ember-auto-import@2.13.1:
     resolution: {integrity: sha512-MjxJK2nfCJmmQI/rju2TrycmAa1AxmTarfvygbcrrgW0s4WeZHtbGXCO2z1lW9wfrShqeTo/o+3Mgk+9xcDTWg==}
@@ -5159,8 +5146,9 @@ packages:
   node-int64@0.4.0:
     resolution: {integrity: sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==}
 
-  node-releases@2.0.44:
-    resolution: {integrity: sha512-5WUyunoPMsvvEhS8AxHtRzP+oA8UCkJ7YRxatWKjngndhDGLiqEVAQKWjFAiAiuL8zMRGzGSJxFnLetoa43qGQ==}
+  node-releases@2.0.46:
+    resolution: {integrity: sha512-GYVXHE2KnrzAfsAjl4uP++evGFCrAU1jta4ubEjIG7YWt/64Gqv66a30yKwWczVjA6j3bM4nBwH7Pk1JmDHaxQ==}
+    engines: {node: '>=18'}
 
   node-watch@0.7.3:
     resolution: {integrity: sha512-3l4E8uMPY1HdMMryPRUAl+oIHtXtyiTlIiESNSVSNxcPfzAFzeTbXFQkZfAwBbo0B1qMSG8nUABx+Gd+YrbKrQ==}
@@ -6187,11 +6175,6 @@ packages:
         optional: true
       uglify-js:
         optional: true
-
-  terser@5.47.1:
-    resolution: {integrity: sha512-tPbLXTI6ohPASb/1YViL428oEHu6/qv1OxqYnfaonVCFHqx4+wCd95pHrQWsL5X4pl90CTyW9piSAsS2L0VoMw==}
-    engines: {node: '>=10'}
-    hasBin: true
 
   terser@5.48.0:
     resolution: {integrity: sha512-J/9An6vs9Us6wKRriSFXBWdRZapREHqFzdNUKk0pmu804EMR6dr6winwo7e5JDxN4xahxQsuysyYFwlwj4XN/Q==}
@@ -8432,20 +8415,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/macros@1.20.2(@babel/core@7.29.7)':
-    dependencies:
-      '@embroider/shared-internals': 3.0.2
-      assert-never: 1.4.0
-      babel-import-util: 3.0.1
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7)
-      find-up: 5.0.0
-      lodash: 4.18.1
-      resolve: 1.22.12
-      semver: 7.8.1
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-
   '@embroider/macros@1.20.3(@babel/core@7.29.7)':
     dependencies:
       '@embroider/shared-internals': 3.1.0
@@ -8493,24 +8462,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/shared-internals@3.0.2':
-    dependencies:
-      babel-import-util: 3.0.1
-      debug: 4.4.3
-      ember-rfc176-data: 0.3.18
-      fs-extra: 9.1.0
-      is-subdir: 1.2.0
-      js-string-escape: 1.0.1
-      lodash: 4.18.1
-      minimatch: 3.1.5
-      pkg-entry-points: 1.1.1
-      resolve-package-path: 4.0.3
-      resolve.exports: 2.0.3
-      semver: 7.8.1
-      typescript-memoize: 1.1.1
-    transitivePeerDependencies:
-      - supports-color
-
   '@embroider/shared-internals@3.1.0':
     dependencies:
       babel-import-util: 3.0.1
@@ -8529,11 +8480,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.7.3(@embroider/core@4.6.0)(vite@8.0.14(@types/node@25.9.1)(esbuild@0.27.2)(terser@5.48.0)(yaml@2.9.0))':
+  '@embroider/vite@1.7.4(@embroider/core@4.6.0)(vite@8.0.14(@types/node@25.9.1)(esbuild@0.27.2)(terser@5.48.0)(yaml@2.9.0))':
     dependencies:
       '@babel/core': 7.29.7
       '@embroider/core': 4.6.0
-      '@embroider/macros': 1.20.2(@babel/core@7.29.7)
+      '@embroider/macros': 1.20.3(@babel/core@7.29.7)
       '@embroider/reverse-exports': 0.2.0
       assert-never: 1.4.0
       browserslist: 4.28.2
@@ -8546,7 +8497,7 @@ snapshots:
       jsdom: 25.0.1
       send: 1.2.1
       source-map-url: 0.4.1
-      terser: 5.47.1
+      terser: 5.48.0
       vite: 8.0.14(@types/node@25.9.1)(esbuild@0.27.2)(terser@5.48.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@glint/template'
@@ -9793,7 +9744,7 @@ snapshots:
 
   base64id@2.0.0: {}
 
-  baseline-browser-mapping@2.10.31: {}
+  baseline-browser-mapping@2.10.32: {}
 
   basic-auth@2.0.1:
     dependencies:
@@ -10104,10 +10055,10 @@ snapshots:
 
   browserslist@4.28.2:
     dependencies:
-      baseline-browser-mapping: 2.10.31
+      baseline-browser-mapping: 2.10.32
       caniuse-lite: 1.0.30001793
-      electron-to-chromium: 1.5.360
-      node-releases: 2.0.44
+      electron-to-chromium: 1.5.363
+      node-releases: 2.0.46
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
   bser@2.1.1:
@@ -10536,7 +10487,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.360: {}
+  electron-to-chromium@1.5.363: {}
 
   ember-auto-import@2.13.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12)):
     dependencies:
@@ -12687,7 +12638,7 @@ snapshots:
 
   node-int64@0.4.0: {}
 
-  node-releases@2.0.44: {}
+  node-releases@2.0.46: {}
 
   node-watch@0.7.3: {}
 
@@ -13839,13 +13790,6 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.2
       postcss: 8.5.12
-
-  terser@5.47.1:
-    dependencies:
-      '@jridgewell/source-map': 0.3.11
-      acorn: 8.16.0
-      commander: 2.20.3
-      source-map-support: 0.5.21
 
   terser@5.48.0:
     dependencies:
