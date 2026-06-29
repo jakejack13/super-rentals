@@ -72,8 +72,8 @@ importers:
         specifier: ^10.0.3
         version: 10.0.3
       decorator-transforms:
-        specifier: ^2.3.2
-        version: 2.3.2(@babel/core@7.29.7)
+        specifier: ^2.4.0
+        version: 2.4.0(@babel/core@7.29.7)
       ember-auto-import:
         specifier: ^2.13.1
         version: 2.13.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
@@ -427,12 +427,6 @@ packages:
 
   '@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2':
     resolution: {integrity: sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-
-  '@babel/plugin-syntax-decorators@7.28.6':
-    resolution: {integrity: sha512-71EYI0ONURHJBL4rSFXnITXqXrrY8q4P0q006DPfN+Rk+ASM+++IBXem/ruokgBZR8YNEWZ8R6B+rCb8VcUTqA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -3419,8 +3413,10 @@ packages:
   decimal.js@10.6.0:
     resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
 
-  decorator-transforms@2.3.2:
-    resolution: {integrity: sha512-XcErcjlmCzG5ODgYjt6ZTXwd6S8fPKln/sJmw15ZXkWG2JpoQNwszis+AwF6XSGlOoG7g8MCEO97g+Yw3fk5OQ==}
+  decorator-transforms@2.4.0:
+    resolution: {integrity: sha512-IB+0RqnJpuS7ndH4dVY5dfWTZsrCzN3avWFdjSiET0uT2U24jKywjpVEK97TflnZkZgiSRfmeqc1WfS+1CI23w==}
+    peerDependencies:
+      '@babel/core': ^7.23.0 || ^8.0.0
 
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
@@ -7060,11 +7056,6 @@ snapshots:
     dependencies:
       '@babel/core': 7.29.7
 
-  '@babel/plugin-syntax-decorators@7.28.6(@babel/core@7.29.7)':
-    dependencies:
-      '@babel/core': 7.29.7
-      '@babel/helper-plugin-utils': 7.29.7
-
   '@babel/plugin-syntax-decorators@7.29.7(@babel/core@7.29.7)':
     dependencies:
       '@babel/core': 7.29.7
@@ -8318,7 +8309,7 @@ snapshots:
       '@ember/test-waiters': 4.1.2
       '@embroider/addon-shim': 1.10.3
       '@simple-dom/interface': 1.4.0
-      decorator-transforms: 2.3.2(@babel/core@7.29.7)
+      decorator-transforms: 2.4.0(@babel/core@7.29.7)
       dom-element-descriptors: 0.5.1
     transitivePeerDependencies:
       - '@babel/core'
@@ -10468,12 +10459,10 @@ snapshots:
 
   decimal.js@10.6.0: {}
 
-  decorator-transforms@2.3.2(@babel/core@7.29.7):
+  decorator-transforms@2.4.0(@babel/core@7.29.7):
     dependencies:
-      '@babel/plugin-syntax-decorators': 7.28.6(@babel/core@7.29.7)
+      '@babel/core': 7.29.7
       babel-import-util: 3.0.1
-    transitivePeerDependencies:
-      - '@babel/core'
 
   deep-is@0.1.4: {}
 
@@ -10636,7 +10625,7 @@ snapshots:
   ember-cli-deprecation-workflow@4.0.1(@babel/core@7.29.7):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      decorator-transforms: 2.3.2(@babel/core@7.29.7)
+      decorator-transforms: 2.4.0(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -10881,7 +10870,7 @@ snapshots:
   ember-modifier@4.3.0(@babel/core@7.29.7):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      decorator-transforms: 2.3.2(@babel/core@7.29.7)
+      decorator-transforms: 2.4.0(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -10953,7 +10942,7 @@ snapshots:
   ember-welcome-page@8.0.5(@babel/core@7.29.7):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      decorator-transforms: 2.3.2(@babel/core@7.29.7)
+      decorator-transforms: 2.4.0(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -14028,7 +14017,7 @@ snapshots:
   tracked-built-ins@4.1.2(@babel/core@7.29.7):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      decorator-transforms: 2.3.2(@babel/core@7.29.7)
+      decorator-transforms: 2.4.0(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
