@@ -52,7 +52,7 @@ importers:
         version: 3.0.6(@embroider/core@4.6.2)
       '@embroider/vite':
         specifier: ^1.7.8
-        version: 1.7.8(@embroider/core@4.6.2)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.0)(yaml@2.9.0))
+        version: 1.7.8(@embroider/core@4.6.2)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.1)(yaml@2.9.0))
       '@eslint/js':
         specifier: ^9.39.5
         version: 9.39.5
@@ -120,8 +120,8 @@ importers:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.38.0)
       eslint-plugin-ember:
-        specifier: ^13.4.1
-        version: 13.4.1(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
+        specifier: ^13.5.0
+        version: 13.5.0(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
       eslint-plugin-n:
         specifier: ^18.2.2
         version: 18.2.2(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
@@ -157,7 +157,7 @@ importers:
         version: 4.1.2(@babel/core@7.29.7)
       vite:
         specifier: ^8.2.0
-        version: 8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.0)(yaml@2.9.0)
+        version: 8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.1)(yaml@2.9.0)
 
 packages:
 
@@ -2385,8 +2385,8 @@ packages:
   '@types/ws@8.18.1':
     resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
 
-  '@typescript-eslint/tsconfig-utils@8.62.1':
-    resolution: {integrity: sha512-xadytJqX9vJVQ2fdQjkcIVigwaOJNWkpjdLt6cEQ+xPnrI1fkp+/jZE/I97k9KUjqtpd25i0HeyZf3T6dutv2g==}
+  '@typescript-eslint/tsconfig-utils@8.66.0':
+    resolution: {integrity: sha512-9D5gLYZG4rOjcoag8MQ/fWI8WqA9wcPDyOGyWtWFhvM1lHRbliqUSPIY5J3zqCU1tvSwzXxnnjhQhz5Ne7mJ4g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       typescript: '>=4.8.4 <6.1.0'
@@ -2804,12 +2804,16 @@ packages:
   brace-expansion@1.1.13:
     resolution: {integrity: sha512-9ZLprWS6EENmhEOpjCYW2c8VkmOvckIJZfkr7rBW6dObmfgJ/L1GpSYW5Hpo9lDz4D1+n0Ckz8rU7FwHDQiG/w==}
 
-  brace-expansion@2.1.1:
-    resolution: {integrity: sha512-WR1cURNjuvBLMZBMbqM0UoE+WAfdUcEV1ccD8PVBVOI+Z3ND4+SZbN8RsfT2bMuG1qwz5RFvPukSZm5fF2D5eA==}
+  brace-expansion@2.1.4:
+    resolution: {integrity: sha512-hGfVzPxthbf3+2yjg/RBs60cB0FhqBS/zvdV/4wn4/BmN0bNMMHPc4V/BbFieqf1TKAGGAHnY4eSjajCl0f2Xg==}
 
   brace-expansion@5.0.7:
     resolution: {integrity: sha512-7oFy703dxfY3/NLxC1fh2SUCQ0H9rmAY+5EpDVfXjUTTs+HEwR2nYaqLv+GWcTsumwxPfiz6CzCNkwXwBUwqCA==}
     engines: {node: 18 || 20 || >=22}
+
+  brace-expansion@5.0.9:
+    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
+    engines: {node: 20 || >=22}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -3575,8 +3579,8 @@ packages:
       qunit:
         optional: true
 
-  ember-eslint-parser@0.14.3:
-    resolution: {integrity: sha512-jU1HtVHqlbzqRDMwS4lxggjIY7u/wr+lij4bEvyC1CpNd5YqHK7anK3ubmVZLiB19VrFO6tH2/iYUQ+drpSYuA==}
+  ember-eslint-parser@0.14.4:
+    resolution: {integrity: sha512-HSpJPP52KTpr2lbz41rHiWPsqSy4eXLZljpUez0RigVZJIbk3BWbRMHWeqL6GeylOVJPysD7Wx92Fg7mOFvbLA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/eslint-parser': ^7.28.6 || ^8.0.0
@@ -3587,8 +3591,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  ember-estree@0.6.10:
-    resolution: {integrity: sha512-5nItZGzvxHgoCdASQbn9qBzF4sdjSggUeZpXdihAanmYWm6XkObT/TlUvakYtoKret1/8gm0jNLwNPqZYwHtCw==}
+  ember-estree@0.6.11:
+    resolution: {integrity: sha512-aZyheQGUXyHu8GARPd1YyjbDMGkvqBYKzPj6RVp8qqMqA1L1MbkWKsljWE3K1CwiJcHwTPgm/O3oxS0TY1AX9Q==}
 
   ember-load-initializers@3.0.1:
     resolution: {integrity: sha512-qV3vxJKw5+7TVDdtdLPy8PhVsh58MlK8jwzqh5xeOwJPNP7o0+BlhvwoIlLYTPzGaHdfjEIFCgVSyMRGd74E1g==}
@@ -3757,8 +3761,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-ember@13.4.1:
-    resolution: {integrity: sha512-KyPKk3SfYQ5ci9U/bvVIA0NFB1UFn6rZAHNNb62AOgcMUNIR1/+0zqzyhrLHPyodo8BmE+kKDj7subsp71NkqA==}
+  eslint-plugin-ember@13.5.0:
+    resolution: {integrity: sha512-q1s/irrc2l1KeE1l5S1UiO7ZrvGF5aYm903CMQ7lHFc09F/78/uvgzvA4wPZ9TFMl07r2ttoIINrEOFy05RtGg==}
     engines: {node: '>= 20.19'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -5067,6 +5071,10 @@ packages:
     resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
     engines: {node: 18 || 20 || >=22}
 
+  minimatch@10.2.6:
+    resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
+    engines: {node: 18 || 20 || >=22}
+
   minimatch@3.1.4:
     resolution: {integrity: sha512-twmL+S8+7yIsE9wsqgzU3E8/LumN3M3QELrBZ20OdmQ9jB2JvW5oZtBEmft84k/Gs5CG9mqtWc6Y9vW+JEzGxw==}
 
@@ -6214,8 +6222,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  terser@5.49.0:
-    resolution: {integrity: sha512-SNiDnXyHSrxVcIOtVbULzcTmniUiwcV7Nwdyj1twVubeTmbjoa8p69KKDpfkdoOavuM4/GRm1+ykI8qqnavHoA==}
+  terser@5.49.1:
+    resolution: {integrity: sha512-7A2xlQ5EnGT8KPA92dUh6RbRYTVw8hEaEN9L1K68l4UOXFuV511NnAqObGoRqGOQofQcMypisu1s3xawCEHrvA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -8528,7 +8536,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.7.8(@embroider/core@4.6.2)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.0)(yaml@2.9.0))':
+  '@embroider/vite@1.7.8(@embroider/core@4.6.2)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.1)(yaml@2.9.0))':
     dependencies:
       '@babel/core': 7.29.7
       '@embroider/core': 4.6.2
@@ -8546,7 +8554,7 @@ snapshots:
       send: 1.2.1
       source-map-url: 0.4.1
       terser: 5.48.0
-      vite: 8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.0)(yaml@2.9.0)
+      vite: 8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.1)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@glint/template'
       - bufferutil
@@ -9370,7 +9378,7 @@ snapshots:
     dependencies:
       '@types/node': 25.9.1
 
-  '@typescript-eslint/tsconfig-utils@8.62.1(typescript@5.9.3)':
+  '@typescript-eslint/tsconfig-utils@8.66.0(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
@@ -9866,11 +9874,15 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@2.1.1:
+  brace-expansion@2.1.4:
     dependencies:
       balanced-match: 1.0.2
 
   brace-expansion@5.0.7:
+    dependencies:
+      balanced-match: 4.0.4
+
+  brace-expansion@5.0.9:
     dependencies:
       balanced-match: 4.0.4
 
@@ -10555,7 +10567,7 @@ snapshots:
     dependencies:
       '@one-ini/wasm': 0.2.1
       commander: 14.0.3
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       semver: 7.8.5
 
   ee-first@1.1.1: {}
@@ -10865,12 +10877,12 @@ snapshots:
       - ember-provide-consume-context
       - supports-color
 
-  ember-eslint-parser@0.14.3(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3):
+  ember-eslint-parser@0.14.4(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3):
     dependencies:
       '@glimmer/syntax': 0.95.0
-      '@typescript-eslint/tsconfig-utils': 8.62.1(typescript@5.9.3)
+      '@typescript-eslint/tsconfig-utils': 8.66.0(typescript@5.9.3)
       content-tag: 4.2.0
-      ember-estree: 0.6.10
+      ember-estree: 0.6.11
       eslint-scope: 9.1.2
       html-tags: 5.1.0
       mathml-tag-names: 4.0.0
@@ -10880,7 +10892,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  ember-estree@0.6.10:
+  ember-estree@0.6.11:
     dependencies:
       '@glimmer/env': 0.1.7
       '@glimmer/syntax': 0.95.0
@@ -11161,14 +11173,14 @@ snapshots:
     dependencies:
       eslint: 9.38.0
 
-  eslint-plugin-ember@13.4.1(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3):
+  eslint-plugin-ember@13.5.0(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       aria-query: 5.3.2
       axobject-query: 4.1.0
       css-tree: 3.2.1
       editorconfig: 3.0.2
-      ember-eslint-parser: 0.14.3(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3)
+      ember-eslint-parser: 0.14.4(@babel/eslint-parser@7.29.7(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3)
       ember-rfc176-data: 0.3.18
       eslint: 9.38.0
       eslint-utils: 3.0.0(eslint@9.38.0)
@@ -12640,6 +12652,10 @@ snapshots:
     dependencies:
       brace-expansion: 5.0.7
 
+  minimatch@10.2.6:
+    dependencies:
+      brace-expansion: 5.0.9
+
   minimatch@3.1.4:
     dependencies:
       brace-expansion: 1.1.13
@@ -12650,15 +12666,15 @@ snapshots:
 
   minimatch@5.1.9:
     dependencies:
-      brace-expansion: 2.1.1
+      brace-expansion: 2.1.4
 
   minimatch@8.0.7:
     dependencies:
-      brace-expansion: 2.1.1
+      brace-expansion: 2.1.4
 
   minimatch@9.0.9:
     dependencies:
-      brace-expansion: 2.1.1
+      brace-expansion: 2.1.4
 
   minimist@1.2.8: {}
 
@@ -13880,7 +13896,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
-      terser: 5.49.0
+      terser: 5.49.1
       webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
     optionalDependencies:
       esbuild: 0.27.2
@@ -13893,7 +13909,7 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  terser@5.49.0:
+  terser@5.49.1:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.18.0
@@ -14214,7 +14230,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.0)(yaml@2.9.0):
+  vite@8.2.0(@types/node@26.1.2)(esbuild@0.27.2)(terser@5.49.1)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -14225,7 +14241,7 @@ snapshots:
       '@types/node': 26.1.2
       esbuild: 0.27.2
       fsevents: 2.3.3
-      terser: 5.49.0
+      terser: 5.49.1
       yaml: 2.9.0
 
   w3c-xmlserializer@5.0.0:
