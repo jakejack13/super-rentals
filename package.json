@@ -50,7 +50,7 @@
     "@rollup/plugin-babel": "^7.1.0",
     "@warp-drive/ember": "~5.8.2",
     "babel-plugin-ember-template-compilation": "^2.4.1",
-    "concurrently": "^10.0.4",
+    "concurrently": "^10.0.5",
     "decorator-transforms": "^2.4.0",
     "ember-auto-import": "^2.13.1",
     "ember-cli": "~7.1.0",
