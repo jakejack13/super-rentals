@@ -51,8 +51,8 @@ importers:
         specifier: ^3.0.6
         version: 3.0.6(@embroider/core@4.6.3)
       '@embroider/vite':
-        specifier: ^1.7.9
-        version: 1.7.9(@embroider/core@4.6.3)(vite@8.2.2(@types/node@26.2.0)(esbuild@0.27.2)(terser@5.50.0)(yaml@2.9.0))
+        specifier: ^1.7.10
+        version: 1.7.10(@embroider/core@4.6.3)(vite@8.2.2(@types/node@26.2.0)(esbuild@0.27.2)(terser@5.50.0)(yaml@2.9.0))
       '@eslint/js':
         specifier: ^9.39.5
         version: 9.39.5
@@ -1366,8 +1366,8 @@ packages:
     resolution: {integrity: sha512-IlxD8okTt9cRUFpJKD8gTuQUBuEflrhCUju1xZFdYvmGm5XVqHPfG4I6+bEdKb8NO92aqHxr9SYuYibDmpMM9w==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/vite@1.7.9':
-    resolution: {integrity: sha512-TmatvdDPM4THy4wKA7JvTZa4sJSagQEZeFyeYQCxKBFcIcOxvtrDzDV9oPhv0+LPr+7XXqVOni593Io2m0xnMQ==}
+  '@embroider/vite@1.7.10':
+    resolution: {integrity: sha512-cKMjDQm7OgKJMHIlOX46sZtDDcN2ATKW4oZtBVewQHZKp7RYfCtl0MQFq88p2ruSa+d1OQ01GWg1ybdvCoFaoQ==}
     peerDependencies:
       '@embroider/core': ^4.6.3
       vite: '>= 5.2.0'
@@ -2807,8 +2807,8 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  baseline-browser-mapping@2.11.13:
-    resolution: {integrity: sha512-k9HNuUVMlqVjQ9UHzfPjIqiDbWw7WqT1AoT7GL8VwvF3r0ZfArtgiSPAlmupyNquNgOJHTuH4CKYf8ttMTWBTQ==}
+  baseline-browser-mapping@2.11.16:
+    resolution: {integrity: sha512-H/bNPUFHewJHyCTdjn1n3Pit5+2GmWT6mmeHImPX+8MA9NA6b67jO4gYmi4jTbCJb2otq34KMZnovndDPqJwhQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -3556,8 +3556,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.404:
-    resolution: {integrity: sha512-3WJtd7/lVq2Jnuz6wed1l9+1ZD2u2Tet1/1NBc4Iedkmgbu+I7YuAqdAQ8T+VZtnwysMsAf3IqSq9D1gyZjA2g==}
+  electron-to-chromium@1.5.412:
+    resolution: {integrity: sha512-z4rMe3esBzlzovKHj4gxJnsCGZRK5l4baUvm+gCGJBPE+gsyUMKsuU9tnEUtI1dOebXz1ytAPGjvXhmQ7rIPwA==}
 
   ember-auto-import@2.13.1:
     resolution: {integrity: sha512-MjxJK2nfCJmmQI/rju2TrycmAa1AxmTarfvygbcrrgW0s4WeZHtbGXCO2z1lW9wfrShqeTo/o+3Mgk+9xcDTWg==}
@@ -6261,11 +6261,6 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.49.2:
-    resolution: {integrity: sha512-rGbJiKeQ4WDe3EXlDAIaQcwftVfv2Q8o1awFNfvXolJYKkb1AuZY1RTOmqx4LJXZENbWZA7eIsYGHuEzHsi1nQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   terser@5.50.0:
     resolution: {integrity: sha512-CN9BVxWhgS/hRxtUMjtC2uRWSTcSfQFHMDWma6sKKfIivCD91sM+FOPfvwoaRMqCSrUpe1nv3jDamd9eEQ4y+w==}
     engines: {node: '>=10'}
@@ -8609,7 +8604,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.7.9(@embroider/core@4.6.3)(vite@8.2.2(@types/node@26.2.0)(esbuild@0.27.2)(terser@5.50.0)(yaml@2.9.0))':
+  '@embroider/vite@1.7.10(@embroider/core@4.6.3)(vite@8.2.2(@types/node@26.2.0)(esbuild@0.27.2)(terser@5.50.0)(yaml@2.9.0))':
     dependencies:
       '@babel/core': 7.29.7
       '@embroider/core': 4.6.3
@@ -8626,7 +8621,7 @@ snapshots:
       jsdom: 25.0.1
       send: 1.2.1
       source-map-url: 0.4.1
-      terser: 5.49.2
+      terser: 5.50.0
       vite: 8.2.2(@types/node@26.2.0)(esbuild@0.27.2)(terser@5.50.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@glint/template'
@@ -9879,7 +9874,7 @@ snapshots:
 
   base64id@2.0.0: {}
 
-  baseline-browser-mapping@2.11.13: {}
+  baseline-browser-mapping@2.11.16: {}
 
   basic-auth@2.0.1:
     dependencies:
@@ -10194,9 +10189,9 @@ snapshots:
 
   browserslist@4.28.8:
     dependencies:
-      baseline-browser-mapping: 2.11.13
+      baseline-browser-mapping: 2.11.16
       caniuse-lite: 1.0.30001809
-      electron-to-chromium: 1.5.404
+      electron-to-chromium: 1.5.412
       node-releases: 2.0.53
       update-browserslist-db: 1.3.1(browserslist@4.28.8)
 
@@ -10629,7 +10624,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.404: {}
+  electron-to-chromium@1.5.412: {}
 
   ember-auto-import@2.13.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12)):
     dependencies:
@@ -13949,13 +13944,6 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.2
       postcss: 8.5.12
-
-  terser@5.49.2:
-    dependencies:
-      '@jridgewell/source-map': 0.3.11
-      acorn: 8.18.0
-      commander: 2.20.3
-      source-map-support: 0.5.21
 
   terser@5.50.0:
     dependencies:
