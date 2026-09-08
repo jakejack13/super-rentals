@@ -41,7 +41,7 @@
     "@embroider/macros": "^1.20.6",
     "@embroider/core": "^4.6.5",
     "@embroider/vite": "^1.7.11",
-    "@embroider/compat": "^4.1.22",
+    "@embroider/compat": "^4.1.23",
     "@embroider/router": "^3.0.6",
     "@embroider/config-meta-loader": "^1.0.0",
     "@embroider/legacy-inspector-support": "^0.1.3",
