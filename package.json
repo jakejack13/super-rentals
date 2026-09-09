@@ -48,7 +48,7 @@
     "@eslint/js": "^9.39.5",
     "@glimmer/component": "^2.1.1",
     "@rollup/plugin-babel": "^7.1.0",
-    "@warp-drive/ember": "~5.8.2",
+    "@warp-drive/ember": "~5.9.1",
     "babel-plugin-ember-template-compilation": "^2.4.1",
     "concurrently": "^10.0.5",
     "decorator-transforms": "^2.4.0",
