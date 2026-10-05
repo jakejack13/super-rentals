@@ -111,8 +111,8 @@ importers:
         specifier: ^7.9.3
         version: 7.9.3
       ember-welcome-page:
-        specifier: ^8.0.5
-        version: 8.0.5(@babel/core@7.29.7)
+        specifier: ^8.0.6
+        version: 8.0.6(@babel/core@7.29.7)
       eslint:
         specifier: ^9.37.0
         version: 9.38.0
@@ -3690,8 +3690,8 @@ packages:
     engines: {node: ^18.18.0 || >= 20.9.0}
     hasBin: true
 
-  ember-welcome-page@8.0.5:
-    resolution: {integrity: sha512-XegmXI94mt/EVUD3Ya15OuAxB3iCdK16lGS7vCimUIi4fGGooxUTOnlKexTsVLbcJh8u2bsw5JZ0iVht1X5sng==}
+  ember-welcome-page@8.0.6:
+    resolution: {integrity: sha512-aUJZ7HfN0ArVRe3uW70BjkafW+/+lnxyzMl6VPSK0AbQcFCrN3ScwBOWeijnv5qifn43wUfv91zDTAEiInpuCg==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -10970,9 +10970,9 @@ snapshots:
       '@lint-todo/utils': 13.1.1
       content-tag: 3.1.3
 
-  ember-welcome-page@8.0.5(@babel/core@7.29.7):
+  ember-welcome-page@8.0.6(@babel/core@7.29.7):
     dependencies:
-      '@embroider/addon-shim': 1.10.2
+      '@embroider/addon-shim': 1.10.3
       decorator-transforms: 2.4.0(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
