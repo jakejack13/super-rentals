@@ -123,8 +123,8 @@ importers:
         specifier: ^13.6.1
         version: 13.6.1(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
       eslint-plugin-n:
-        specifier: ^18.4.1
-        version: 18.4.1(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
+        specifier: ^18.5.0
+        version: 18.5.0(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
       eslint-plugin-qunit:
         specifier: ^8.2.6
         version: 8.2.6(eslint@9.38.0)
@@ -2639,6 +2639,9 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
+  argparse@3.0.3:
+    resolution: {integrity: sha512-Sn98ftV3KfsO8xfLPHG6oT8y+b0yvbrLgZjgPDXsharNY15tTAjqIsIju4S32nl6/iEUNNE4v+yL2Zhm8ooP3w==}
+
   aria-query@5.3.2:
     resolution: {integrity: sha512-COROpnaoap1E2F000S62r6A60uHZnmlvomhfyT2DlTcrY1OrBKn2UhH7qn5wTC9zMvD0AY7csdPSNwKP+7WiQw==}
     engines: {node: '>= 0.4'}
@@ -3816,8 +3819,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-n@18.4.1:
-    resolution: {integrity: sha512-2sBReWOvCbzgkPri9M5SFmD5EbIwZLa1xz6B5RZsrI19WSFKpyx1sOMr+pdk8puCiXuEgCbErEHy1PuaUrc/4w==}
+  eslint-plugin-n@18.5.0:
+    resolution: {integrity: sha512-M7uF6MTN/An+AXqvyIbXq7npJIZOkd5eKo8iMMvWrcDVNyZVdA6TF2lw01aKQfCEidRfpnR78GhAjZorlXNHiw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=8.57.1'
@@ -4768,6 +4771,10 @@ packages:
 
   js-yaml@5.4.2:
     resolution: {integrity: sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==}
+    hasBin: true
+
+  js-yaml@5.5.0:
+    resolution: {integrity: sha512-paNr4LFIFPjeeSmwNYdrb8FafLLG/Cr2Af3GjbsHJ5CxIjH4r0c2emlmRdAtpPAieP1gRVzk6buBbVP5gBMGAg==}
     hasBin: true
 
   jsdom@25.0.1:
@@ -5882,9 +5889,15 @@ packages:
     resolution: {integrity: sha512-eflK8wEtyOE6+hsaRVPxvUKYCpRgzLqDTb8krvAsRIwOGlHoSgYLgBXoubGgLd2fT41/OUYdb48v4k4WWHQurA==}
     engines: {node: '>= 10.13.0'}
 
-  schema-utils@4.5.0:
-    resolution: {integrity: sha512-zJlMCZ0cAR5p/Y4oVpRoqioDMJcGxaXRrQ/4rP4WyR84vc5z/DolXdbvXeDpTwbtocDFr2rhPqHPErDCUtz2kA==}
+  schema-utils@4.8.1:
+    resolution: {integrity: sha512-x39pYlJPyH7Uge5QO64B9XGP9zLDc9WNmiQZc+CE3IzZPvMu3lHOuAMGpYNoPixEL7MSWlGhYTg5UlLSL8G6iw==}
     engines: {node: '>= 10.13.0'}
+    hasBin: true
+    peerDependencies:
+      webpack: ^5.112.0
+    peerDependenciesMeta:
+      webpack:
+        optional: true
 
   semver-deprecate@1.1.0:
     resolution: {integrity: sha512-5AcYPbRIw9vs80YkyRxmm3Lbe88STkwNIpTKKX0Kxyy/T0yR05BTZ6JhV9B5pjTyc81SjztcFPY93kDPRFwlyA==}
@@ -6576,8 +6589,8 @@ packages:
     resolution: {integrity: sha512-c9gP6tfJ8vK+eH84IF4+8r4Z/g2KhRc+XwLGl208tAIHR1mz0o7zy5Hkm+4XpACh8lNp9/EHqXHIQkw2nBbdYA==}
     engines: {node: '>= 8'}
 
-  watchpack@2.5.2:
-    resolution: {integrity: sha512-6i/00NBjP4yGPs+caKSyRfpTF/8Torsu0MOW3mMzIbhgISFder8i7xbqgHlLMwJrdiN8ndBV3UA1/AfzPSr+jg==}
+  watchpack@2.6.3:
+    resolution: {integrity: sha512-s3NZy0QpTY9qGqzc0wtz4qI28z3+5qKbbAec4MV4G9N3CfgZ9wgvQRr0cl2jh/tqkWG1NWHkmVMHZpCamev5Wg==}
     engines: {node: '>=10.13.0'}
 
   wcwidth@1.0.1:
@@ -8472,7 +8485,7 @@ snapshots:
       minimatch: 3.1.5
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
-      semver: 7.8.5
+      semver: 7.7.4
       typescript-memoize: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -9606,6 +9619,8 @@ snapshots:
 
   argparse@2.0.1: {}
 
+  argparse@3.0.3: {}
+
   aria-query@5.3.2: {}
 
   array-buffer-byte-length@1.0.2:
@@ -10430,7 +10445,7 @@ snapshots:
       postcss-modules-values: 4.0.0(postcss@8.5.29)
       postcss-value-parser: 4.2.0
       schema-utils: 3.3.0
-      semver: 7.8.5
+      semver: 7.7.4
       webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
 
   css-tree@3.1.0:
@@ -11192,7 +11207,7 @@ snapshots:
       eslint: 9.38.0
       eslint-compat-utils: 0.5.1(eslint@9.38.0)
 
-  eslint-plugin-n@18.4.1(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3):
+  eslint-plugin-n@18.5.0(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@9.38.0)
       enhanced-resolve: 5.26.0
@@ -11202,7 +11217,7 @@ snapshots:
       globals: 15.15.0
       globrex: 0.1.2
       ignore: 5.3.2
-      js-yaml: 5.4.2
+      js-yaml: 5.5.0
       semver: 7.8.5
     optionalDependencies:
       ts-declaration-location: 1.0.7(typescript@5.9.3)
@@ -12285,6 +12300,10 @@ snapshots:
   js-yaml@5.4.2:
     dependencies:
       argparse: 2.0.1
+
+  js-yaml@5.5.0:
+    dependencies:
+      argparse: 3.0.3
 
   jsdom@25.0.1:
     dependencies:
@@ -13439,12 +13458,14 @@ snapshots:
       ajv-formats: 2.1.1(ajv@8.18.0)
       ajv-keywords: 5.1.0(ajv@8.18.0)
 
-  schema-utils@4.5.0:
+  schema-utils@4.8.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12)):
     dependencies:
       '@types/json-schema': 7.0.15
       ajv: 8.20.0
       ajv-formats: 3.0.1(ajv@8.20.0)
       ajv-keywords: 5.1.0(ajv@8.20.0)
+    optionalDependencies:
+      webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
 
   semver-deprecate@1.1.0:
     dependencies:
@@ -13904,7 +13925,7 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
-      schema-utils: 4.5.0
+      schema-utils: 4.8.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
       terser: 5.51.2
       webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
     optionalDependencies:
@@ -14298,7 +14319,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  watchpack@2.5.2:
+  watchpack@2.6.3:
     dependencies:
       graceful-fs: 4.2.11
 
@@ -14332,10 +14353,10 @@ snapshots:
       loader-runner: 4.3.2
       mime-types: 2.1.35
       neo-async: 2.6.2
-      schema-utils: 4.5.0
+      schema-utils: 4.8.1(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
       tapable: 2.3.3
       terser-webpack-plugin: 5.6.1(esbuild@0.27.2)(postcss@8.5.12)(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
-      watchpack: 2.5.2
+      watchpack: 2.6.3
       webpack-sources: 3.6.0
     transitivePeerDependencies:
       - '@minify-html/node'
