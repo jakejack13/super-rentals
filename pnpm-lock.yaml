@@ -120,8 +120,8 @@ importers:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.38.0)
       eslint-plugin-ember:
-        specifier: ^13.8.1
-        version: 13.8.1(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
+        specifier: ^13.9.0
+        version: 13.9.0(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
       eslint-plugin-n:
         specifier: ^18.5.0
         version: 18.5.0(eslint@9.38.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
@@ -3641,8 +3641,8 @@ packages:
       qunit:
         optional: true
 
-  ember-eslint-parser@0.16.0:
-    resolution: {integrity: sha512-RiXh/fY63xZhujHScZgIQCOntoc8E2Jb8n6h0oefLWkphsK3xiGy863V+7N32kZKz61T8Gl3pAJvZI2DhJ7+Ng==}
+  ember-eslint-parser@0.16.1:
+    resolution: {integrity: sha512-1FSGhbknZwYG3nz3HK30lim4xVxM0B42ps5dOtrFrzz9cbdMtR5K+ftlOsfFjRLU7gL66zCJVVnsF1VuVlBSZg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/eslint-parser': ^7.28.6 || ^8.0.0
@@ -3819,8 +3819,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-ember@13.8.1:
-    resolution: {integrity: sha512-MLkDuUaQTTOmseOlLn006MEjZJDhFfwRHsaHrlanUo/bKk7/RGO5RJ1R0s3M0JAi7RZhW6lzRpd+CW9A1NKX1g==}
+  eslint-plugin-ember@13.9.0:
+    resolution: {integrity: sha512-Fa/dXnVJP3YCQt73d/fQUueFPRCrIhIrzuLXayyBqR+dkX684Gqhav8kEj9bxJYPtHqVSab4Qvm6VPTbciL8+Q==}
     engines: {node: '>= 20.19'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -10945,7 +10945,7 @@ snapshots:
       - ember-provide-consume-context
       - supports-color
 
-  ember-eslint-parser@0.16.0(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3):
+  ember-eslint-parser@0.16.1(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3):
     dependencies:
       '@glimmer/syntax': 0.97.0
       '@typescript-eslint/tsconfig-utils': 8.72.0(typescript@5.9.3)
@@ -11235,14 +11235,14 @@ snapshots:
     dependencies:
       eslint: 9.38.0
 
-  eslint-plugin-ember@13.8.1(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3):
+  eslint-plugin-ember@13.9.0(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       aria-query: 5.3.2
       axobject-query: 4.1.0
       css-tree: 3.2.1
       editorconfig: 3.0.2
-      ember-eslint-parser: 0.16.0(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3)
+      ember-eslint-parser: 0.16.1(@babel/eslint-parser@7.29.9(@babel/core@7.29.7)(eslint@9.38.0))(typescript@5.9.3)
       ember-rfc176-data: 0.3.18
       eslint: 9.38.0
       eslint-utils: 3.0.0(eslint@9.38.0)
