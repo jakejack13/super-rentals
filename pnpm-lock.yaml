@@ -96,8 +96,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(@babel/core@7.29.13)
       ember-page-title:
-        specifier: ^9.0.3
-        version: 9.0.3
+        specifier: ^9.1.0
+        version: 9.1.0
       ember-qunit:
         specifier: ^9.2.0
         version: 9.2.0(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0)
@@ -3679,9 +3679,8 @@ packages:
   ember-modifier@4.3.0:
     resolution: {integrity: sha512-O0rirSLQbGg0VJ/NqoQ4uN1bh2iAekZC/Ykma+FkjCM2ofrO38u+d8n3+AK6uVWeMJmogGX2KL+Is5fofoInJg==}
 
-  ember-page-title@9.0.3:
-    resolution: {integrity: sha512-fedRHUsvq8tIZgOii8jTrfAyeq+la/9H5eAzhNNwEyzo7nDMmqK2SxsyBUGXprd8fOacsPabLlzlucMi/4mUpA==}
-    engines: {node: 16.* || >= 18}
+  ember-page-title@9.1.0:
+    resolution: {integrity: sha512-+zBVORfzjnF8eNZ2kesVAV9+LaqIOvFDRK102c7jhpgM1oi3kbKRVh33+fRmF3tOFnWXwxbSiRfOgHS4rpMw+Q==}
 
   ember-qunit@9.2.0:
     resolution: {integrity: sha512-y/v9D7/wfH9fWh6p6NPNZ4KMJ97ZdowoASNmLvLrrzDYSVHJDbbbOfFMKLfdvHF942PHMlf6NulKVezO4yNfmw==}
@@ -6644,8 +6643,8 @@ packages:
     resolution: {integrity: sha512-c9gP6tfJ8vK+eH84IF4+8r4Z/g2KhRc+XwLGl208tAIHR1mz0o7zy5Hkm+4XpACh8lNp9/EHqXHIQkw2nBbdYA==}
     engines: {node: '>= 8'}
 
-  watchpack@2.6.3:
-    resolution: {integrity: sha512-s3NZy0QpTY9qGqzc0wtz4qI28z3+5qKbbAec4MV4G9N3CfgZ9wgvQRr0cl2jh/tqkWG1NWHkmVMHZpCamev5Wg==}
+  watchpack@2.6.4:
+    resolution: {integrity: sha512-5H3Tce2GfzWbcr9VnSqyak2whFaONw4BdmI5BDnMXold4qSlCFd64XaMQESRh2vkDKmdUkv6rUo17UvZ9f9nXw==}
     engines: {node: '>=10.13.0'}
 
   wcwidth@1.0.1:
@@ -11006,12 +11005,10 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-page-title@9.0.3:
+  ember-page-title@9.1.0:
     dependencies:
-      '@embroider/addon-shim': 1.10.0
+      '@embroider/addon-shim': 1.11.0
       '@simple-dom/document': 1.4.0
-    transitivePeerDependencies:
-      - supports-color
 
   ember-qunit@9.2.0(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0):
     dependencies:
@@ -14460,7 +14457,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  watchpack@2.6.3:
+  watchpack@2.6.4:
     dependencies:
       graceful-fs: 4.2.11
 
@@ -14497,7 +14494,7 @@ snapshots:
       schema-utils: 4.8.3(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
       tapable: 2.3.3
       terser-webpack-plugin: 5.6.1(esbuild@0.27.2)(postcss@8.5.12)(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
-      watchpack: 2.6.3
+      watchpack: 2.6.4
       webpack-sources: 3.7.0
     transitivePeerDependencies:
       - '@minify-html/node'
