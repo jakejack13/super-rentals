@@ -52,7 +52,7 @@ importers:
         version: 3.0.6(@embroider/core@4.6.10)
       '@embroider/vite':
         specifier: ^1.8.1
-        version: 1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.2)(yaml@2.9.1))
+        version: 1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1))
       '@eslint/js':
         specifier: ^9.39.5
         version: 9.39.5
@@ -99,8 +99,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0
       ember-qunit:
-        specifier: ^9.2.0
-        version: 9.2.0(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0)
+        specifier: ^9.2.1
+        version: 9.2.1(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0)
       ember-resolver:
         specifier: ^13.2.0
         version: 13.2.0
@@ -157,7 +157,7 @@ importers:
         version: 4.1.2(@babel/core@7.29.13)
       vite:
         specifier: ^8.3.8
-        version: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.2)(yaml@2.9.1)
+        version: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1)
 
 packages:
 
@@ -3719,8 +3719,8 @@ packages:
   ember-page-title@9.1.0:
     resolution: {integrity: sha512-+zBVORfzjnF8eNZ2kesVAV9+LaqIOvFDRK102c7jhpgM1oi3kbKRVh33+fRmF3tOFnWXwxbSiRfOgHS4rpMw+Q==}
 
-  ember-qunit@9.2.0:
-    resolution: {integrity: sha512-y/v9D7/wfH9fWh6p6NPNZ4KMJ97ZdowoASNmLvLrrzDYSVHJDbbbOfFMKLfdvHF942PHMlf6NulKVezO4yNfmw==}
+  ember-qunit@9.2.1:
+    resolution: {integrity: sha512-aZfX6A6092b1bTL6g+dj4gQT0a75YPli3/HBcTaS7AcGCqj/j2CU3FfPIz/ZZkeAe8oVGedttR1FB3Bs6LTEGw==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
       qunit: ^2.13.0 || ^3.0.0
@@ -6405,6 +6405,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  terser@5.51.3:
+    resolution: {integrity: sha512-j5jPZZ6Sz0Eg2unusKhdRzUhUlHXJ3Bw2AkIXyJ6AqajWwihUlZOdJS+KSnZzmtVk6mFGdm3hHg0+M2sgyEz5Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   testem@3.21.5:
     resolution: {integrity: sha512-HvQM6RYYBGNmg+PSrK6x/SKeJVpp8z6zgEdi9VkBA9kfE7M7XSbF9h16QLycA3TntWr/bDS1iuasZdtz1qh9+g==}
     engines: {node: ^20.19.0 || ^22.12.0 || ^24.0.0 || >= 26.0.0}
@@ -8690,7 +8695,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.2)(yaml@2.9.1))':
+  '@embroider/vite@1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1))':
     dependencies:
       '@embroider/core': 4.6.10
       '@embroider/macros': 1.21.4(@babel/core@7.29.13)
@@ -8706,7 +8711,7 @@ snapshots:
       jsdom: 25.0.1
       send: 1.2.1
       terser: 5.51.2
-      vite: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.2)(yaml@2.9.1)
+      vite: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1)
     optionalDependencies:
       '@babel/core': 7.29.13
     transitivePeerDependencies:
@@ -11148,14 +11153,12 @@ snapshots:
       '@embroider/addon-shim': 1.11.0
       '@simple-dom/document': 1.4.0
 
-  ember-qunit@9.2.0(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0):
+  ember-qunit@9.2.1(@ember/test-helpers@5.8.0(@babel/core@7.29.13))(qunit@2.26.0):
     dependencies:
       '@ember/test-helpers': 5.8.0(@babel/core@7.29.13)
-      '@embroider/addon-shim': 1.10.3
+      '@embroider/addon-shim': 1.11.0
       qunit: 2.26.0
       qunit-theme-ember: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   ember-resolver@13.2.0: {}
 
@@ -14190,13 +14193,20 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.8.5(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
-      terser: 5.51.2
+      terser: 5.51.3
       webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
     optionalDependencies:
       esbuild: 0.27.2
       postcss: 8.5.12
 
   terser@5.51.2:
+    dependencies:
+      '@jridgewell/source-map': 0.3.11
+      acorn: 8.19.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+
+  terser@5.51.3:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.19.0
@@ -14510,7 +14520,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.2)(yaml@2.9.1):
+  vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -14521,7 +14531,7 @@ snapshots:
       '@types/node': 26.6.6
       esbuild: 0.27.2
       fsevents: 2.3.3
-      terser: 5.51.2
+      terser: 5.51.3
       yaml: 2.9.1
 
   w3c-xmlserializer@5.0.0:
