@@ -18,8 +18,8 @@ importers:
         specifier: ^7.29.7
         version: 7.29.7(@babel/core@7.29.13)
       '@babel/runtime':
-        specifier: ^8.1.2
-        version: 8.1.2
+        specifier: ^8.1.3
+        version: 8.1.3
       '@ember/optional-features':
         specifier: ^3.0.0
         version: 3.0.0(@types/node@26.6.6)
@@ -52,7 +52,7 @@ importers:
         version: 3.0.6(@embroider/core@4.6.10)
       '@embroider/vite':
         specifier: ^1.8.1
-        version: 1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1))
+        version: 1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.4)(yaml@2.9.1))
       '@eslint/js':
         specifier: ^9.39.5
         version: 9.39.5
@@ -157,7 +157,7 @@ importers:
         version: 4.1.2(@babel/core@7.29.13)
       vite:
         specifier: ^8.3.8
-        version: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1)
+        version: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.4)(yaml@2.9.1)
 
 packages:
 
@@ -1127,12 +1127,12 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0 || ^8.0.0-0 <8.0.0
 
-  '@babel/runtime@7.29.14':
-    resolution: {integrity: sha512-Y5tqevQaUAZhhj82BpYMNC1ssvLQTVAfwKdm8iy8qwmhvC2/CpcAu8OC+QEtjM7pMk7knx83u1Qj8gzkicyelw==}
+  '@babel/runtime@7.29.15':
+    resolution: {integrity: sha512-304gsbbGVmQc+cNGHzwHBlqepYdWLKj3VXCQBGt/EGcV7PUPfKI7kAUNW1FZEOCwlQiLvQjg1JEaAlRQ616h+Q==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@8.1.2':
-    resolution: {integrity: sha512-Ay6HdEKZJAeGs6KKJ/ezCK5ssjFmkvUiR0TEGv/B1abyjLWrQ2RU+M507Ppk0NikhvVFhlEFC1/rHfCiYqSUcw==}
+  '@babel/runtime@8.1.3':
+    resolution: {integrity: sha512-tno/enifiFAE77kbJadRE5wKfmzxlYvdB5Dj8yqmWoT49mDJE+wvLgvJY/EKt/jQllv369GMxyyJ9tKfTL33Nw==}
 
   '@babel/template@7.29.7':
     resolution: {integrity: sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg==}
@@ -6405,8 +6405,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  terser@5.51.3:
-    resolution: {integrity: sha512-j5jPZZ6Sz0Eg2unusKhdRzUhUlHXJ3Bw2AkIXyJ6AqajWwihUlZOdJS+KSnZzmtVk6mFGdm3hHg0+M2sgyEz5Q==}
+  terser@5.51.4:
+    resolution: {integrity: sha512-VPi1CkDvCWLGUVIToctNBG+NdHbSXwOPjHJnQ3pdB0XknaldnI76wSkAFOGxV2ZdkzOP5d6gpQ5c58XvDghRvw==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -8181,9 +8181,9 @@ snapshots:
       '@babel/types': 7.29.11
       esutils: 2.0.3
 
-  '@babel/runtime@7.29.14': {}
+  '@babel/runtime@7.29.15': {}
 
-  '@babel/runtime@8.1.2': {}
+  '@babel/runtime@8.1.3': {}
 
   '@babel/template@7.29.7':
     dependencies:
@@ -8544,7 +8544,7 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.29.7(@babel/core@7.29.13)
       '@babel/plugin-transform-runtime': 7.29.7(@babel/core@7.29.13)
       '@babel/preset-env': 7.29.7(@babel/core@7.29.13)
-      '@babel/runtime': 7.29.14
+      '@babel/runtime': 7.29.15
       '@babel/traverse': 7.29.10
       '@embroider/core': 4.6.10
       '@embroider/macros': 1.21.4(@babel/core@7.29.13)
@@ -8695,7 +8695,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1))':
+  '@embroider/vite@1.8.1(@babel/core@7.29.13)(@embroider/core@4.6.10)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.4)(yaml@2.9.1))':
     dependencies:
       '@embroider/core': 4.6.10
       '@embroider/macros': 1.21.4(@babel/core@7.29.13)
@@ -8711,7 +8711,7 @@ snapshots:
       jsdom: 25.0.1
       send: 1.2.1
       terser: 5.51.2
-      vite: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1)
+      vite: 8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.4)(yaml@2.9.1)
     optionalDependencies:
       '@babel/core': 7.29.13
     transitivePeerDependencies:
@@ -10877,7 +10877,7 @@ snapshots:
       '@babel/plugin-transform-runtime': 7.29.7(@babel/core@7.29.13)
       '@babel/plugin-transform-typescript': 7.29.7(@babel/core@7.29.13)
       '@babel/preset-env': 7.29.7(@babel/core@7.29.13)
-      '@babel/runtime': 7.29.14
+      '@babel/runtime': 7.29.15
       amd-name-resolver: 1.3.1
       babel-plugin-debug-macros: 0.3.4(@babel/core@7.29.13)
       babel-plugin-ember-data-packages-polyfill: 0.1.2
@@ -14193,7 +14193,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.8.5(webpack@5.102.1(esbuild@0.27.2)(postcss@8.5.12))
-      terser: 5.51.3
+      terser: 5.51.4
       webpack: 5.102.1(esbuild@0.27.2)(postcss@8.5.12)
     optionalDependencies:
       esbuild: 0.27.2
@@ -14206,7 +14206,7 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  terser@5.51.3:
+  terser@5.51.4:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.19.0
@@ -14520,7 +14520,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.3)(yaml@2.9.1):
+  vite@8.3.8(@types/node@26.6.6)(esbuild@0.27.2)(terser@5.51.4)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -14531,7 +14531,7 @@ snapshots:
       '@types/node': 26.6.6
       esbuild: 0.27.2
       fsevents: 2.3.3
-      terser: 5.51.3
+      terser: 5.51.4
       yaml: 2.9.1
 
   w3c-xmlserializer@5.0.0:
